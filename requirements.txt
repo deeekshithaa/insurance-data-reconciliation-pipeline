@@ -1,0 +1,10 @@
+pandas
+numpy
+sqlalchemy
+psycopg2-binary
+pydantic
+python-dotenv
+pytest
+fastapi
+uvicorn
+pyarrow

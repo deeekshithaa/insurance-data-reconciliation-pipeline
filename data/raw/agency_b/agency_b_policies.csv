@@ -1,0 +1,1101 @@
+policy_id,customer_name,carrier,premium,status,effective_date,expiration_date
+POL1001,John Smith,Global Insurance,10397.84,In Force,2026-02-27,2027-02-27
+POL1002,Daniel Thomas,ABC Insurance,16809.85,In Force,2026-02-22,2027-02-22
+POL1003,Sarah Johnson,XYZ Insurance,9653.22,Pending,2026-01-16,2027-01-16
+POL1004,Daniel Thomas,XYZ Insurance,19320.39,Pending,2026-01-14,2027-01-14
+POL1005,James Anderson,XYZ Insurance,13984.18,Terminated,2026-10-07,2027-10-07
+POL1006,Michael Brown,National Insurance,11805.01,In Force,2026-01-04,2027-01-04
+POL1007,Olivia Martin,ABC Insurance,6854.92,In Force,2026-04-21,2027-04-21
+POL1008,Olivia Martin,Global Insurance,21642.57,Pending,2026-07-03,2027-07-03
+POL1009,Daniel Thomas,ABC Insurance,24962.32,Terminated,2026-08-24,2027-08-24
+POL1010,Daniel Thomas,Global Insurance,22088.09,Pending,2026-02-10,2027-02-10
+POL1011,Emma Garcia,XYZ Insurance,19591.44,In Force,2026-07-05,2027-07-05
+POL1012,David Wilson,ABC Insurance,22106.35,In Force,2026-04-27,2027-04-27
+POL1013,David Wilson,National Insurance,17713.69,Terminated,2026-07-14,2027-07-14
+POL1014,Olivia Martin,Global Insurance,9190.14,Terminated,2026-03-25,2027-03-25
+POL1015,Emma Garcia,XYZ Insurance,15682.8,In Force,2026-02-06,2027-02-06
+POL1016,Sophia Taylor,National Insurance,10398.96,Pending,2026-03-25,2027-03-25
+POL1017,Emily Davis,Global Insurance,21857.04,In Force,2026-10-13,2027-10-13
+POL1018,John Smith,Global Insurance,13023.3,In Force,2026-04-28,2027-04-28
+POL1019,Emma Garcia,Global Insurance,9252.53,Terminated,2026-04-19,2027-04-19
+POL1020,Sophia Taylor,XYZ Insurance,10297.6,In Force,2026-07-22,2027-07-22
+POL1021,Daniel Thomas,Global Insurance,19940.28,Terminated,2026-10-15,2027-10-15
+POL1022,James Anderson,Global Insurance,9386.42,In Force,2026-10-26,2027-10-26
+POL1023,Sophia Taylor,ABC Insurance,20115.64,In Force,2026-09-18,2027-09-18
+POL1024,Michael Brown,National Insurance,16928.18,Terminated,2026-03-20,2027-03-20
+POL1025,Emma Garcia,National Insurance,15582.29,Pending,2026-07-15,2027-07-15
+POL1026,Sarah Johnson,Global Insurance,20371.97,Terminated,2026-01-06,2027-01-06
+POL1027,David Wilson,National Insurance,8163.16,In Force,2026-02-27,2027-02-27
+POL1028,Daniel Thomas,XYZ Insurance,15153.63,In Force,2026-05-15,2027-05-15
+POL1029,Daniel Thomas,XYZ Insurance,8056.79,In Force,2026-06-02,2027-06-02
+POL1030,Daniel Thomas,ABC Insurance,17478.89,Terminated,2026-10-04,2027-10-04
+POL1031,Sarah Johnson,Global Insurance,22574.44,Terminated,2026-01-10,2027-01-10
+POL1032,John Smith,XYZ Insurance,22560.19,In Force,2026-05-03,2027-05-03
+POL1033,Sophia Taylor,ABC Insurance,24559.69,Pending,2026-02-13,2027-02-13
+POL1034,Michael Brown,National Insurance,23936.97,In Force,2026-03-06,2027-03-06
+POL1035,Daniel Thomas,National Insurance,24287.26,Pending,2026-05-16,2027-05-16
+POL1036,David Wilson,National Insurance,25402.99,Pending,2026-04-13,2027-04-13
+POL1037,Sophia Taylor,National Insurance,7420.08,In Force,2026-07-11,2027-07-11
+POL1038,Olivia Martin,ABC Insurance,16766.17,In Force,2026-02-02,2027-02-02
+POL1039,John Smith,ABC Insurance,19156.82,In Force,2026-04-23,2027-04-23
+POL1040,Sarah Johnson,ABC Insurance,22192.71,In Force,2026-04-28,2027-04-28
+POL1041,Emily Davis,Global Insurance,18379.56,In Force,2026-09-21,2027-09-21
+POL1042,Michael Brown,National Insurance,9859.94,Terminated,2026-10-04,2027-10-04
+POL1043,Emily Davis,ABC Insurance,6938.62,Terminated,2026-07-28,2027-07-28
+POL1044,James Anderson,National Insurance,14340.49,Pending,2026-07-01,2027-07-01
+POL1045,Sarah Johnson,ABC Insurance,13052.43,Terminated,2026-01-28,2027-01-28
+POL1046,Emily Davis,XYZ Insurance,8804.18,Terminated,2026-02-25,2027-02-25
+POL1047,James Anderson,XYZ Insurance,10570.9,In Force,2026-03-13,2027-03-13
+POL1048,Sophia Taylor,ABC Insurance,6011.77,Pending,2026-02-08,2027-02-08
+POL1049,Sarah Johnson,XYZ Insurance,8326.22,Terminated,2026-01-08,2027-01-08
+POL1050,Emily Davis,National Insurance,23048.86,In Force,2026-09-04,2027-09-04
+POL1051,John Smith,National Insurance,10304.06,Terminated,2026-07-14,2027-07-14
+POL1052,James Anderson,National Insurance,8095.94,Terminated,2026-05-27,2027-05-27
+POL1053,John Smith,ABC Insurance,19959.51,In Force,2026-04-22,2027-04-22
+POL1054,Emma Garcia,National Insurance,15057.01,Pending,2026-01-26,2027-01-26
+POL1055,John Smith,ABC Insurance,22026.85,In Force,2026-03-22,2027-03-22
+POL1056,Emily Davis,National Insurance,7397.73,Pending,2026-02-04,2027-02-04
+POL1057,Emma Garcia,ABC Insurance,17387.63,Terminated,2026-05-07,2027-05-07
+POL1058,Emma Garcia,Global Insurance,23694.13,In Force,2026-10-26,2027-10-26
+POL1059,Emily Davis,Global Insurance,12915.72,Pending,2026-06-10,2027-06-10
+POL1060,Sophia Taylor,Global Insurance,23580.37,In Force,2026-06-03,2027-06-03
+POL1061,Sophia Taylor,ABC Insurance,6465.21,In Force,2026-01-05,2027-01-05
+POL1062,David Wilson,XYZ Insurance,23665.19,In Force,2026-09-17,2027-09-17
+POL1063,Olivia Martin,Global Insurance,8154.94,Pending,2026-05-06,2027-05-06
+POL1064,Emma Garcia,ABC Insurance,18357.26,Pending,2026-06-04,2027-06-04
+POL1065,Sarah Johnson,XYZ Insurance,10289.32,In Force,2026-06-03,2027-06-03
+POL1066,Michael Brown,Global Insurance,10635.13,In Force,2026-10-11,2027-10-11
+POL1067,Emily Davis,Global Insurance,15108.18,Terminated,2026-06-25,2027-06-25
+POL1068,Sarah Johnson,National Insurance,21586.96,In Force,2026-01-27,2027-01-27
+POL1069,Olivia Martin,XYZ Insurance,17742.27,Terminated,2026-01-02,2027-01-02
+POL1070,Sophia Taylor,National Insurance,16218.14,In Force,2026-03-24,2027-03-24
+POL1071,,ABC Insurance,21691.9,Pending,2026-02-08,2027-02-08
+POL1072,Michael Brown,National Insurance,7548.91,Terminated,2026-10-10,2027-10-10
+POL1073,John Smith,Global Insurance,9201.53,In Force,2026-07-06,2027-07-06
+POL1074,Olivia Martin,National Insurance,24476.74,Pending,2026-02-22,2027-02-22
+POL1075,Emily Davis,XYZ Insurance,24524.12,In Force,2026-03-21,2027-03-21
+POL1076,John Smith,XYZ Insurance,19731.29,Terminated,2026-07-31,2027-07-31
+POL1077,Emily Davis,Global Insurance,8183.96,Pending,2026-07-30,2027-07-30
+POL1078,James Anderson,ABC Insurance,22171.87,In Force,2026-02-25,2027-02-25
+POL1079,Sophia Taylor,Global Insurance,11103.82,In Force,2026-04-13,2027-04-13
+POL1080,John Smith,XYZ Insurance,12969.32,Terminated,2026-04-25,2027-04-25
+POL1081,David Wilson,Global Insurance,17829.63,Terminated,2026-02-05,2027-02-05
+POL1082,,ABC Insurance,7306.84,Terminated,2026-10-02,2027-10-02
+POL1083,Emma Garcia,Global Insurance,5765.14,Pending,2026-04-02,2027-04-02
+POL1084,Olivia Martin,Global Insurance,13727.88,Pending,2026-08-11,2027-08-11
+POL1085,James Anderson,XYZ Insurance,10094.45,Pending,2026-03-01,2027-03-01
+POL1086,John Smith,XYZ Insurance,12284.43,In Force,2026-08-12,2027-08-12
+POL1087,Emma Garcia,Global Insurance,18267.75,In Force,2026-06-19,2027-06-19
+POL1088,Daniel Thomas,Global Insurance,18337.86,Terminated,2026-06-03,2027-06-03
+POL1089,David Wilson,XYZ Insurance,8836.8,Pending,2026-07-26,2027-07-26
+POL1090,Michael Brown,Global Insurance,13121.5,In Force,2026-07-14,2027-07-14
+POL1091,David Wilson,XYZ Insurance,13597.76,Pending,2026-06-05,2027-06-05
+POL1092,Sophia Taylor,National Insurance,14343.2,In Force,2026-06-14,2027-06-14
+POL1093,Sophia Taylor,XYZ Insurance,18177.01,Terminated,2026-09-19,2027-09-19
+POL1094,Emma Garcia,Global Insurance,6867.74,In Force,2026-09-21,2027-09-21
+POL1095,Emily Davis,XYZ Insurance,7947.08,In Force,2026-06-08,2027-06-08
+POL1096,Sophia Taylor,ABC Insurance,14108.32,Pending,2026-05-06,2027-05-06
+POL1097,Emily Davis,National Insurance,14887.54,In Force,2026-10-22,2027-10-22
+POL1098,John Smith,ABC Insurance,20568.41,In Force,2026-03-17,2027-03-17
+POL1099,Daniel Thomas,National Insurance,6004.37,In Force,2026-04-01,2027-04-01
+POL1100,Sophia Taylor,XYZ Insurance,21028.33,Pending,2026-03-04,2027-03-04
+POL1101,Daniel Thomas,Global Insurance,24000.79,Terminated,2026-09-29,2027-09-29
+POL1102,James Anderson,National Insurance,22944.16,Pending,2026-09-16,2027-09-16
+POL1103,Sophia Taylor,Global Insurance,20035.54,Pending,2026-09-01,2027-09-01
+POL1104,Daniel Thomas,National Insurance,17534.97,Terminated,2026-05-22,2027-05-22
+POL1105,Sarah Johnson,Global Insurance,9689.87,Terminated,2026-08-14,2027-08-14
+POL1106,Daniel Thomas,ABC Insurance,7767.48,In Force,2026-06-13,2027-06-13
+POL1107,Michael Brown,XYZ Insurance,6284.58,Terminated,2026-07-16,2027-07-16
+POL1108,Daniel Thomas,National Insurance,13315.48,In Force,2026-06-19,2027-06-19
+POL1109,James Anderson,ABC Insurance,22134.64,Pending,2026-08-04,2027-08-04
+POL1110,Sophia Taylor,ABC Insurance,23854.83,Terminated,2026-07-14,2027-07-14
+POL1111,James Anderson,XYZ Insurance,14764.59,Terminated,2026-07-19,2027-07-19
+POL1112,Sophia Taylor,ABC Insurance,12777.14,Pending,2026-08-12,2027-08-12
+POL1113,Michael Brown,National Insurance,23390.83,Pending,2026-07-27,2027-07-27
+POL1114,,National Insurance,16837.86,Pending,2026-10-01,2027-10-01
+POL1115,Sarah Johnson,National Insurance,7713.99,Terminated,2026-01-14,2027-01-14
+POL1116,John Smith,Global Insurance,12582.08,In Force,2026-04-04,2027-04-04
+POL1117,Olivia Martin,Global Insurance,20224.59,Terminated,2026-08-21,2027-08-21
+POL1118,James Anderson,Global Insurance,21698.22,Terminated,2026-05-23,2027-05-23
+POL1119,Daniel Thomas,ABC Insurance,24998.16,Terminated,2026-01-10,2027-01-10
+POL1120,Sarah Johnson,ABC Insurance,20084.66,In Force,2026-04-25,2027-04-25
+POL1121,John Smith,XYZ Insurance,9770.9,Terminated,2026-04-13,2027-04-13
+POL1122,Emma Garcia,XYZ Insurance,14300.68,Terminated,2026-02-28,2027-02-28
+POL1123,Michael Brown,ABC Insurance,20555.84,In Force,2026-07-08,2027-07-08
+POL1124,Sarah Johnson,ABC Insurance,23577.74,Pending,2026-06-09,2027-06-09
+POL1125,James Anderson,XYZ Insurance,6519.93,Pending,2026-07-12,2027-07-12
+POL1126,Sarah Johnson,Global Insurance,22005.86,Pending,2026-05-05,2027-05-05
+POL1127,Emma Garcia,ABC Insurance,11944.08,Terminated,2026-03-03,2027-03-03
+POL1128,Sarah Johnson,Global Insurance,5253.04,Terminated,2026-07-09,2027-07-09
+POL1129,Sarah Johnson,National Insurance,24215.75,Pending,2026-09-08,2027-09-08
+POL1130,Michael Brown,National Insurance,9022.74,Pending,2026-08-24,2027-08-24
+POL1131,Emma Garcia,National Insurance,14297.48,Pending,2026-05-19,2027-05-19
+POL1132,Olivia Martin,XYZ Insurance,21614.62,In Force,2026-05-18,2027-05-18
+POL1133,Sophia Taylor,XYZ Insurance,20009.53,Pending,2026-05-23,2027-05-23
+POL1134,Olivia Martin,ABC Insurance,14886.13,Terminated,2026-07-14,2027-07-14
+POL1135,Sophia Taylor,XYZ Insurance,12596.5,Terminated,2026-04-04,2027-04-04
+POL1136,David Wilson,Global Insurance,16115.82,Pending,2026-06-24,2027-06-24
+POL1137,Sarah Johnson,XYZ Insurance,19401.49,Terminated,2026-04-08,2027-04-08
+POL1138,Emily Davis,National Insurance,17918.06,Terminated,2026-10-12,2027-10-12
+POL1139,John Smith,ABC Insurance,11384.71,Terminated,2026-08-18,2027-08-18
+POL1140,,Global Insurance,14965.21,Pending,2026-05-05,2027-05-05
+POL1141,James Anderson,Global Insurance,12036.21,Terminated,2026-06-26,2027-06-26
+POL1142,David Wilson,Global Insurance,9610.76,Pending,2026-05-19,2027-05-19
+POL1143,Olivia Martin,ABC Insurance,19857.62,Pending,2026-04-09,2027-04-09
+POL1144,Emily Davis,XYZ Insurance,19772.09,Terminated,2026-04-05,2027-04-05
+POL1145,Emma Garcia,Global Insurance,24610.21,In Force,2026-09-26,2027-09-26
+POL1146,Emily Davis,Global Insurance,8588.83,In Force,2026-06-01,2027-06-01
+POL1147,Michael Brown,Global Insurance,5910.31,In Force,2026-10-01,2027-10-01
+POL1148,David Wilson,XYZ Insurance,17757.39,Terminated,2026-10-11,2027-10-11
+POL1149,John Smith,Global Insurance,14387.94,Terminated,2026-02-22,2027-02-22
+POL1150,Michael Brown,ABC Insurance,10049.57,Terminated,2026-06-24,2027-06-24
+POL1151,Sarah Johnson,National Insurance,14834.93,Pending,2026-02-28,2027-02-28
+POL1152,Michael Brown,XYZ Insurance,21222.84,Terminated,2026-01-28,2027-01-28
+POL1153,Emily Davis,ABC Insurance,16161.46,Terminated,2026-02-13,2027-02-13
+POL1154,Daniel Thomas,National Insurance,14010.29,Terminated,2026-04-26,2027-04-26
+POL1155,Emma Garcia,National Insurance,11107.6,Pending,2026-06-02,2027-06-02
+POL1156,Emma Garcia,ABC Insurance,23951.8,In Force,2026-01-31,2027-01-31
+POL1157,David Wilson,ABC Insurance,8141.14,In Force,2026-04-19,2027-04-19
+POL1158,Sarah Johnson,XYZ Insurance,5053.51,Terminated,2026-10-10,2027-10-10
+POL1159,David Wilson,ABC Insurance,9629.52,Pending,2026-08-29,2027-08-29
+POL1160,Sophia Taylor,ABC Insurance,19247.7,Terminated,2026-05-25,2027-05-25
+POL1161,James Anderson,ABC Insurance,15891.25,Pending,2026-04-12,2027-04-12
+POL1162,David Wilson,XYZ Insurance,6428.2,In Force,2026-03-18,2027-03-18
+POL1163,Emma Garcia,Global Insurance,13783.07,Terminated,2026-06-07,2027-06-07
+POL1164,James Anderson,Global Insurance,15009.44,Terminated,2026-06-05,2027-06-05
+POL1165,Sarah Johnson,ABC Insurance,22788.46,Pending,2026-08-13,2027-08-13
+POL1166,Emma Garcia,Global Insurance,5517.3,In Force,2026-06-15,2027-06-15
+POL1167,Emma Garcia,ABC Insurance,24991.45,Pending,2026-10-22,2027-10-22
+POL1168,Emma Garcia,ABC Insurance,20762.18,In Force,2026-05-18,2027-05-18
+POL1169,Daniel Thomas,National Insurance,23321.46,In Force,2026-08-29,2027-08-29
+POL1170,James Anderson,National Insurance,24381.1,Terminated,2026-10-27,2027-10-27
+POL1171,James Anderson,Global Insurance,11421.17,In Force,2026-06-28,2027-06-28
+POL1172,Olivia Martin,National Insurance,18873.47,Terminated,2026-03-24,2027-03-24
+POL1173,Daniel Thomas,ABC Insurance,14096.52,Terminated,2026-07-25,2027-07-25
+POL1174,Olivia Martin,ABC Insurance,24403.69,Terminated,2026-05-10,2027-05-10
+POL1175,John Smith,National Insurance,13764.95,In Force,2026-09-21,2027-09-21
+POL1176,Olivia Martin,National Insurance,17508.17,In Force,2026-09-23,2027-09-23
+POL1177,David Wilson,XYZ Insurance,23553.46,Terminated,2026-04-15,2027-04-15
+POL1178,Sarah Johnson,ABC Insurance,24462.94,Pending,2026-09-06,2027-09-06
+POL1179,Michael Brown,Global Insurance,16016.78,Pending,2026-05-03,2027-05-03
+POL1180,Sarah Johnson,XYZ Insurance,24845.14,In Force,2026-07-28,2027-07-28
+POL1181,Sarah Johnson,XYZ Insurance,14967.51,Pending,2026-08-25,2027-08-25
+POL1182,Daniel Thomas,Global Insurance,13809.81,Terminated,2026-05-30,2027-05-30
+POL1183,Emily Davis,National Insurance,16025.3,Terminated,2026-08-30,2027-08-30
+POL1184,Emma Garcia,XYZ Insurance,22280.54,Terminated,2026-04-08,2027-04-08
+POL1185,Olivia Martin,Global Insurance,21410.99,Terminated,2026-08-01,2027-08-01
+POL1186,Emma Garcia,National Insurance,22305.21,Terminated,2026-06-02,2027-06-02
+POL1187,,Global Insurance,11648.8,Pending,2026-10-03,2027-10-03
+POL1188,Sophia Taylor,Global Insurance,22392.03,Pending,2026-07-13,2027-07-13
+POL1189,Emma Garcia,National Insurance,9671.25,Terminated,2026-05-03,2027-05-03
+POL1190,Olivia Martin,National Insurance,19104.56,Terminated,2026-01-23,2027-01-23
+POL1191,Michael Brown,National Insurance,24296.49,In Force,2026-07-17,2027-07-17
+POL1192,Emma Garcia,Global Insurance,22394.01,Terminated,2026-09-15,2027-09-15
+POL1193,,National Insurance,5306.95,In Force,2026-02-21,2027-02-21
+POL1194,Michael Brown,ABC Insurance,14889.81,Terminated,2026-07-29,2027-07-29
+POL1195,Emma Garcia,National Insurance,17996.73,Terminated,2026-06-23,2027-06-23
+POL1196,James Anderson,Global Insurance,17535.98,Terminated,2026-10-01,2027-10-01
+POL1197,John Smith,ABC Insurance,9695.4,Pending,2026-10-05,2027-10-05
+POL1198,Emily Davis,ABC Insurance,13679.43,In Force,2026-05-28,2027-05-28
+POL1199,Sophia Taylor,XYZ Insurance,18880.02,In Force,2026-02-21,2027-02-21
+POL1200,Olivia Martin,ABC Insurance,10867.36,Terminated,2026-01-24,2027-01-24
+POL1201,Michael Brown,XYZ Insurance,15623.33,Pending,2026-08-09,2027-08-09
+POL1202,Michael Brown,XYZ Insurance,6579.37,Terminated,2026-04-03,2027-04-03
+POL1203,Sophia Taylor,XYZ Insurance,9643.77,Pending,2026-05-04,2027-05-04
+POL1204,Sophia Taylor,Global Insurance,18336.81,Terminated,2026-05-11,2027-05-11
+POL1205,Daniel Thomas,XYZ Insurance,6477.24,Terminated,2026-05-28,2027-05-28
+POL1206,David Wilson,National Insurance,18806.27,Terminated,2026-10-28,2027-10-28
+POL1207,Emily Davis,National Insurance,22066.71,In Force,2026-06-04,2027-06-04
+POL1208,James Anderson,Global Insurance,16496.24,Pending,2026-05-02,2027-05-02
+POL1209,John Smith,National Insurance,10489.61,Pending,2026-06-01,2027-06-01
+POL1210,Emma Garcia,National Insurance,21656.78,Terminated,2026-01-26,2027-01-26
+POL1211,Emma Garcia,Global Insurance,9380.09,In Force,2026-04-28,2027-04-28
+POL1212,Michael Brown,ABC Insurance,23068.07,Pending,2026-05-09,2027-05-09
+POL1213,David Wilson,National Insurance,5667.29,Terminated,2026-01-21,2027-01-21
+POL1214,Sarah Johnson,Global Insurance,11534.38,Terminated,2026-03-09,2027-03-09
+POL1215,Emily Davis,XYZ Insurance,20730.26,Terminated,2026-03-31,2027-03-31
+POL1216,Daniel Thomas,Global Insurance,21609.45,Terminated,2026-09-29,2027-09-29
+POL1217,David Wilson,Global Insurance,21084.65,Terminated,2026-09-04,2027-09-04
+POL1218,Michael Brown,XYZ Insurance,22202.81,Pending,2026-02-08,2027-02-08
+POL1219,Daniel Thomas,Global Insurance,6806.06,Terminated,2026-07-23,2027-07-23
+POL1220,David Wilson,ABC Insurance,14095.72,Pending,2026-01-08,2027-01-08
+POL1221,Emma Garcia,National Insurance,21448.35,Terminated,2026-05-15,2027-05-15
+POL1222,Emily Davis,National Insurance,5500.49,Pending,2026-02-25,2027-02-25
+POL1223,Emma Garcia,XYZ Insurance,17953.05,Pending,2026-06-17,2027-06-17
+POL1224,David Wilson,National Insurance,7333.52,In Force,2026-08-26,2027-08-26
+POL1225,David Wilson,National Insurance,7322.41,In Force,2026-01-20,2027-01-20
+POL1226,Michael Brown,National Insurance,14572.88,Pending,2026-10-03,2027-10-03
+POL1227,James Anderson,XYZ Insurance,22708.28,Pending,2026-10-04,2027-10-04
+POL1228,Sophia Taylor,National Insurance,23781.06,Terminated,2026-02-20,2027-02-20
+POL1229,Olivia Martin,XYZ Insurance,13867.66,In Force,2026-01-17,2027-01-17
+POL1230,Sarah Johnson,Global Insurance,15889.32,Pending,2026-07-05,2027-07-05
+POL1231,John Smith,National Insurance,10517.63,In Force,2026-07-03,2027-07-03
+POL1232,Sarah Johnson,XYZ Insurance,17834.09,Pending,2026-08-21,2027-08-21
+POL1233,John Smith,Global Insurance,10371.38,In Force,2026-01-11,2027-01-11
+POL1234,Emily Davis,ABC Insurance,21596.36,Pending,2026-10-17,2027-10-17
+POL1235,Emma Garcia,XYZ Insurance,21261.06,In Force,2026-04-17,2027-04-17
+POL1236,Michael Brown,ABC Insurance,10545.5,In Force,2026-06-18,2027-06-18
+POL1237,Daniel Thomas,Global Insurance,21470.28,In Force,2026-03-08,2027-03-08
+POL1238,Michael Brown,ABC Insurance,12164.85,In Force,2026-01-14,2027-01-14
+POL1239,John Smith,XYZ Insurance,10307.35,In Force,2026-06-15,2027-06-15
+POL1240,Daniel Thomas,ABC Insurance,19913.31,Terminated,2026-08-04,2027-08-04
+POL1241,Olivia Martin,ABC Insurance,14040.11,In Force,2026-08-18,2027-08-18
+POL1242,Daniel Thomas,Global Insurance,14160.85,In Force,2026-01-23,2027-01-23
+POL1243,Sophia Taylor,National Insurance,13525.47,In Force,2026-02-01,2027-02-01
+POL1244,Sophia Taylor,ABC Insurance,22985.34,Terminated,2026-09-09,2027-09-09
+POL1245,Sarah Johnson,XYZ Insurance,10500.32,Pending,2026-03-17,2027-03-17
+POL1246,,Global Insurance,12618.09,Pending,2026-10-27,2027-10-27
+POL1247,David Wilson,National Insurance,15111.02,Terminated,2026-09-29,2027-09-29
+POL1248,Sarah Johnson,XYZ Insurance,13601.4,In Force,2026-02-20,2027-02-20
+POL1249,Olivia Martin,National Insurance,12974.6,Pending,2026-07-31,2027-07-31
+POL1250,Olivia Martin,National Insurance,11250.47,Terminated,2026-02-18,2027-02-18
+POL1251,Michael Brown,National Insurance,6342.67,In Force,2026-07-11,2027-07-11
+POL1252,James Anderson,ABC Insurance,19891.78,Terminated,2026-02-17,2027-02-17
+POL1253,Daniel Thomas,ABC Insurance,16729.3,Pending,2026-03-08,2027-03-08
+POL1254,Olivia Martin,ABC Insurance,13216.17,Pending,2026-10-15,2027-10-15
+POL1255,John Smith,Global Insurance,17008.2,Terminated,2026-08-05,2027-08-05
+POL1256,Emma Garcia,XYZ Insurance,8594.6,Terminated,2026-02-23,2027-02-23
+POL1257,Sarah Johnson,Global Insurance,21907.47,Terminated,2026-04-25,2027-04-25
+POL1258,David Wilson,XYZ Insurance,21144.43,Pending,2026-02-28,2027-02-28
+POL1259,John Smith,Global Insurance,5579.06,Terminated,2026-10-13,2027-10-13
+POL1260,Olivia Martin,Global Insurance,5122.12,In Force,2026-06-08,2027-06-08
+POL1261,James Anderson,ABC Insurance,7837.49,Pending,2026-10-17,2027-10-17
+POL1262,Sarah Johnson,XYZ Insurance,12523.89,Terminated,2026-01-16,2027-01-16
+POL1263,Michael Brown,Global Insurance,11232.75,Terminated,2026-06-24,2027-06-24
+POL1264,Emma Garcia,ABC Insurance,22666.84,In Force,2026-10-18,2027-10-18
+POL1265,Emma Garcia,ABC Insurance,18479.37,Terminated,2026-03-22,2027-03-22
+POL1266,James Anderson,National Insurance,17141.52,Terminated,2026-08-15,2027-08-15
+POL1267,Emily Davis,ABC Insurance,12403.46,In Force,2026-05-20,2027-05-20
+POL1268,Emma Garcia,National Insurance,15538.68,Terminated,2026-05-26,2027-05-26
+POL1269,Emily Davis,National Insurance,24688.91,In Force,2026-01-24,2027-01-24
+POL1270,,Global Insurance,23906.48,In Force,2026-01-04,2027-01-04
+POL1271,David Wilson,Global Insurance,7399.69,Terminated,2026-05-11,2027-05-11
+POL1272,Michael Brown,XYZ Insurance,12604.15,Pending,2026-08-09,2027-08-09
+POL1273,Daniel Thomas,Global Insurance,6441.51,Pending,2026-04-28,2027-04-28
+POL1274,James Anderson,ABC Insurance,14195.09,In Force,2026-01-22,2027-01-22
+POL1275,Emma Garcia,National Insurance,16467.99,Pending,2026-06-10,2027-06-10
+POL1276,,ABC Insurance,13100.65,Terminated,2026-08-02,2027-08-02
+POL1277,Emma Garcia,National Insurance,21640.52,Terminated,2026-03-29,2027-03-29
+POL1278,James Anderson,ABC Insurance,9866.33,Pending,2026-02-15,2027-02-15
+POL1279,,ABC Insurance,13415.33,Terminated,2026-07-25,2027-07-25
+POL1280,Emily Davis,Global Insurance,20582.36,In Force,2026-06-23,2027-06-23
+POL1281,Sarah Johnson,XYZ Insurance,23118.45,Terminated,2026-09-19,2027-09-19
+POL1282,Michael Brown,XYZ Insurance,7056.09,Terminated,2026-06-29,2027-06-29
+POL1283,Michael Brown,XYZ Insurance,20204.31,Pending,2026-04-12,2027-04-12
+POL1284,Michael Brown,National Insurance,14279.06,Pending,2026-02-08,2027-02-08
+POL1285,Sophia Taylor,Global Insurance,22284.94,Pending,2026-10-24,2027-10-24
+POL1286,Michael Brown,National Insurance,6365.73,Terminated,2026-06-11,2027-06-11
+POL1287,David Wilson,ABC Insurance,12038.84,In Force,2026-06-05,2027-06-05
+POL1288,Sophia Taylor,National Insurance,5752.14,Terminated,2026-06-08,2027-06-08
+POL1289,Sarah Johnson,ABC Insurance,17300.17,Pending,2026-05-27,2027-05-27
+POL1290,Sophia Taylor,ABC Insurance,13994.67,Pending,2026-07-16,2027-07-16
+POL1291,Olivia Martin,National Insurance,15527.35,In Force,2026-04-07,2027-04-07
+POL1292,,Global Insurance,24647.71,In Force,2026-08-19,2027-08-19
+POL1293,Michael Brown,ABC Insurance,9954.87,Terminated,2026-09-16,2027-09-16
+POL1294,Daniel Thomas,XYZ Insurance,12777.96,Terminated,2026-08-13,2027-08-13
+POL1295,James Anderson,Global Insurance,18577.95,In Force,2026-07-18,2027-07-18
+POL1296,Sarah Johnson,Global Insurance,6890.12,Pending,2026-06-21,2027-06-21
+POL1297,,Global Insurance,19474.67,Pending,2026-07-17,2027-07-17
+POL1298,Olivia Martin,ABC Insurance,16654.79,In Force,2026-03-18,2027-03-18
+POL1299,David Wilson,National Insurance,7579.03,Pending,2026-06-29,2027-06-29
+POL1300,David Wilson,National Insurance,18369.87,Terminated,2026-02-13,2027-02-13
+POL1301,Daniel Thomas,ABC Insurance,17920.5,Terminated,2026-03-07,2027-03-07
+POL1302,Olivia Martin,ABC Insurance,12251.95,In Force,2026-09-18,2027-09-18
+POL1303,Olivia Martin,National Insurance,8840.1,In Force,2026-04-20,2027-04-20
+POL1304,Sarah Johnson,Global Insurance,21888.57,In Force,2026-03-21,2027-03-21
+POL1305,Daniel Thomas,ABC Insurance,18238.58,Pending,2026-09-17,2027-09-17
+POL1306,Emma Garcia,National Insurance,8085.06,In Force,2026-03-09,2027-03-09
+POL1307,Sophia Taylor,ABC Insurance,13717.17,Pending,2026-03-26,2027-03-26
+POL1308,Sophia Taylor,Global Insurance,20047.82,Terminated,2026-05-02,2027-05-02
+POL1309,Daniel Thomas,XYZ Insurance,11189.36,Terminated,2026-04-30,2027-04-30
+POL1310,Olivia Martin,National Insurance,14233.6,Terminated,2026-04-10,2027-04-10
+POL1311,Daniel Thomas,National Insurance,24825.36,In Force,2026-07-15,2027-07-15
+POL1312,David Wilson,ABC Insurance,17823.58,Terminated,2026-03-12,2027-03-12
+POL1313,Sarah Johnson,ABC Insurance,10701.26,In Force,2026-10-11,2027-10-11
+POL1314,Sophia Taylor,XYZ Insurance,21620.93,In Force,2026-05-20,2027-05-20
+POL1315,Sophia Taylor,Global Insurance,23609.44,Terminated,2026-04-24,2027-04-24
+POL1316,James Anderson,Global Insurance,10215.56,In Force,2026-01-28,2027-01-28
+POL1317,Emily Davis,ABC Insurance,11373.7,In Force,2026-07-11,2027-07-11
+POL1318,Michael Brown,XYZ Insurance,6266.06,Terminated,2026-06-21,2027-06-21
+POL1319,Sophia Taylor,National Insurance,17306.97,In Force,2026-03-13,2027-03-13
+POL1320,David Wilson,XYZ Insurance,21699.26,Pending,2026-01-10,2027-01-10
+POL1321,James Anderson,ABC Insurance,20523.45,In Force,2026-09-28,2027-09-28
+POL1322,Sarah Johnson,ABC Insurance,9768.79,Pending,2026-06-04,2027-06-04
+POL1323,Sarah Johnson,ABC Insurance,21733.75,Terminated,2026-08-23,2027-08-23
+POL1324,John Smith,XYZ Insurance,19370.89,Terminated,2026-10-02,2027-10-02
+POL1325,John Smith,Global Insurance,9811.28,Terminated,2026-08-08,2027-08-08
+POL1326,Sarah Johnson,Global Insurance,6353.59,Pending,2026-04-06,2027-04-06
+POL1327,Daniel Thomas,ABC Insurance,12809.07,Terminated,2026-10-06,2027-10-06
+POL1328,James Anderson,Global Insurance,10073.01,In Force,2026-01-23,2027-01-23
+POL1329,Sarah Johnson,Global Insurance,9822.52,Pending,2026-07-02,2027-07-02
+POL1330,Emma Garcia,Global Insurance,7668.19,Terminated,2026-02-23,2027-02-23
+POL1331,Olivia Martin,XYZ Insurance,21607.67,Pending,2026-10-07,2027-10-07
+POL1332,Sophia Taylor,XYZ Insurance,21229.95,In Force,2026-08-26,2027-08-26
+POL1333,John Smith,Global Insurance,9031.82,In Force,2026-08-23,2027-08-23
+POL1334,Olivia Martin,Global Insurance,15807.67,Pending,2026-01-22,2027-01-22
+POL1335,David Wilson,ABC Insurance,20065.82,In Force,2026-08-31,2027-08-31
+POL1336,Olivia Martin,ABC Insurance,22315.97,Terminated,2026-05-27,2027-05-27
+POL1337,Sarah Johnson,Global Insurance,13739.03,Terminated,2026-05-20,2027-05-20
+POL1338,James Anderson,Global Insurance,24474.47,Terminated,2026-08-14,2027-08-14
+POL1339,Olivia Martin,Global Insurance,21022.96,Pending,2026-09-12,2027-09-12
+POL1340,Sarah Johnson,National Insurance,17049.07,In Force,2026-08-06,2027-08-06
+POL1341,David Wilson,Global Insurance,7051.96,Terminated,2026-10-07,2027-10-07
+POL1342,David Wilson,National Insurance,17052.43,Terminated,2026-06-01,2027-06-01
+POL1343,Sophia Taylor,Global Insurance,13942.59,Pending,2026-03-27,2027-03-27
+POL1344,Emma Garcia,National Insurance,10491.11,In Force,2026-06-30,2027-06-30
+POL1345,James Anderson,Global Insurance,15261.72,Pending,2026-02-08,2027-02-08
+POL1346,John Smith,XYZ Insurance,21973.39,Pending,2026-03-23,2027-03-23
+POL1347,John Smith,XYZ Insurance,6344.67,Pending,2026-08-13,2027-08-13
+POL1348,Olivia Martin,National Insurance,23989.34,In Force,2026-07-07,2027-07-07
+POL1349,Sophia Taylor,Global Insurance,12440.27,In Force,2026-03-20,2027-03-20
+POL1350,Michael Brown,Global Insurance,12960.68,Pending,2026-10-21,2027-10-21
+POL1351,Emily Davis,ABC Insurance,5518.27,In Force,2026-05-23,2027-05-23
+POL1352,Daniel Thomas,National Insurance,23270.85,In Force,2026-09-13,2027-09-13
+POL1353,David Wilson,National Insurance,9791.41,Pending,2026-05-15,2027-05-15
+POL1354,Sophia Taylor,XYZ Insurance,7452.75,In Force,2026-05-27,2027-05-27
+POL1355,Michael Brown,National Insurance,24945.25,Pending,2026-08-20,2027-08-20
+POL1356,Olivia Martin,ABC Insurance,16499.94,Terminated,2026-06-13,2027-06-13
+POL1357,Michael Brown,XYZ Insurance,20873.93,Pending,2026-06-03,2027-06-03
+POL1358,Sarah Johnson,XYZ Insurance,20841.31,In Force,2026-04-25,2027-04-25
+POL1359,John Smith,Global Insurance,16080.43,Terminated,2026-09-10,2027-09-10
+POL1360,Daniel Thomas,XYZ Insurance,17238.97,In Force,2026-08-28,2027-08-28
+POL1361,David Wilson,National Insurance,24991.9,Pending,2026-02-03,2027-02-03
+POL1362,Daniel Thomas,National Insurance,20383.29,Pending,2026-09-03,2027-09-03
+POL1363,Michael Brown,Global Insurance,17846.77,Terminated,2026-02-07,2027-02-07
+POL1364,Daniel Thomas,Global Insurance,7566.69,Pending,2026-08-27,2027-08-27
+POL1365,Michael Brown,XYZ Insurance,13652.37,In Force,2026-10-28,2027-10-28
+POL1366,Daniel Thomas,XYZ Insurance,11582.49,In Force,2026-03-05,2027-03-05
+POL1367,Emily Davis,Global Insurance,23949.66,Pending,2026-06-15,2027-06-15
+POL1368,Sarah Johnson,Global Insurance,8926.04,Pending,2026-05-26,2027-05-26
+POL1369,Michael Brown,Global Insurance,17288.57,In Force,2026-05-21,2027-05-21
+POL1370,Michael Brown,XYZ Insurance,8424.01,Pending,2026-09-15,2027-09-15
+POL1371,Emma Garcia,ABC Insurance,21504.73,In Force,2026-06-22,2027-06-22
+POL1372,John Smith,Global Insurance,18022.6,Pending,2026-02-11,2027-02-11
+POL1373,Emma Garcia,ABC Insurance,14960.76,Pending,2026-08-02,2027-08-02
+POL1374,David Wilson,Global Insurance,14658.9,Pending,2026-10-07,2027-10-07
+POL1375,David Wilson,National Insurance,6959.46,In Force,2026-07-27,2027-07-27
+POL1376,Sophia Taylor,National Insurance,14685.02,In Force,2026-03-22,2027-03-22
+POL1377,Emma Garcia,XYZ Insurance,11251.65,Pending,2026-06-24,2027-06-24
+POL1378,Olivia Martin,National Insurance,7615.32,Terminated,2026-06-13,2027-06-13
+POL1379,Daniel Thomas,ABC Insurance,11382.32,Terminated,2026-09-21,2027-09-21
+POL1380,David Wilson,National Insurance,9958.38,In Force,2026-03-04,2027-03-04
+POL1381,David Wilson,National Insurance,22283.28,Terminated,2026-01-26,2027-01-26
+POL1382,Michael Brown,Global Insurance,23675.03,Pending,2026-05-08,2027-05-08
+POL1383,Emily Davis,XYZ Insurance,15465.31,Pending,2026-06-10,2027-06-10
+POL1384,Sophia Taylor,Global Insurance,14947.41,In Force,2026-08-28,2027-08-28
+POL1385,Daniel Thomas,National Insurance,24333.73,In Force,2026-07-21,2027-07-21
+POL1386,Olivia Martin,ABC Insurance,6010.81,Terminated,2026-10-26,2027-10-26
+POL1387,David Wilson,ABC Insurance,21943.45,Terminated,2026-08-29,2027-08-29
+POL1388,David Wilson,Global Insurance,20777.14,Terminated,2026-03-10,2027-03-10
+POL1389,James Anderson,ABC Insurance,16405.63,In Force,2026-01-24,2027-01-24
+POL1390,Daniel Thomas,Global Insurance,6470.63,Pending,2026-07-05,2027-07-05
+POL1391,Daniel Thomas,Global Insurance,21506.23,Pending,2026-08-19,2027-08-19
+POL1392,Michael Brown,ABC Insurance,12878.07,Terminated,2026-03-02,2027-03-02
+POL1393,Olivia Martin,XYZ Insurance,8981.16,Pending,2026-10-13,2027-10-13
+POL1394,Daniel Thomas,ABC Insurance,5906.07,In Force,2026-07-25,2027-07-25
+POL1395,Sophia Taylor,National Insurance,7978.81,Pending,2026-06-20,2027-06-20
+POL1396,Olivia Martin,Global Insurance,8250.04,Pending,2026-03-13,2027-03-13
+POL1397,Emma Garcia,Global Insurance,15146.3,Pending,2026-06-03,2027-06-03
+POL1398,Sophia Taylor,Global Insurance,14497.85,In Force,2026-09-30,2027-09-30
+POL1399,Olivia Martin,ABC Insurance,24597.96,Pending,2026-07-08,2027-07-08
+POL1400,John Smith,National Insurance,10810.61,Pending,2026-06-07,2027-06-07
+POL1401,Emma Garcia,XYZ Insurance,19428.0,Pending,2026-10-24,2027-10-24
+POL1402,Michael Brown,National Insurance,7955.51,Pending,2026-09-03,2027-09-03
+POL1403,John Smith,ABC Insurance,8815.69,Terminated,2026-05-05,2027-05-05
+POL1404,James Anderson,XYZ Insurance,13259.2,In Force,2026-06-10,2027-06-10
+POL1405,Daniel Thomas,National Insurance,22956.35,Pending,2026-07-30,2027-07-30
+POL1406,Michael Brown,XYZ Insurance,16217.74,Pending,2026-02-01,2027-02-01
+POL1407,Daniel Thomas,National Insurance,11275.05,In Force,2026-09-02,2027-09-02
+POL1408,Daniel Thomas,Global Insurance,15925.46,Pending,2026-08-24,2027-08-24
+POL1409,Emma Garcia,National Insurance,8845.28,In Force,2026-05-16,2027-05-16
+POL1410,Daniel Thomas,Global Insurance,9497.34,Terminated,2026-05-23,2027-05-23
+POL1411,Emily Davis,National Insurance,11340.81,Terminated,2026-05-28,2027-05-28
+POL1412,David Wilson,Global Insurance,7437.48,Pending,2026-10-14,2027-10-14
+POL1413,James Anderson,National Insurance,21367.55,In Force,2026-10-06,2027-10-06
+POL1414,John Smith,Global Insurance,24106.27,In Force,2026-05-29,2027-05-29
+POL1415,Sophia Taylor,Global Insurance,19946.77,In Force,2026-06-27,2027-06-27
+POL1416,Daniel Thomas,Global Insurance,23660.48,Pending,2026-04-14,2027-04-14
+POL1417,Michael Brown,ABC Insurance,17313.54,Pending,2026-05-20,2027-05-20
+POL1418,Emily Davis,ABC Insurance,18396.68,Pending,2026-05-03,2027-05-03
+POL1419,Emily Davis,ABC Insurance,7003.96,Terminated,2026-04-26,2027-04-26
+POL1420,Sarah Johnson,XYZ Insurance,5103.63,Pending,2026-08-30,2027-08-30
+POL1421,James Anderson,National Insurance,14548.97,In Force,2026-03-22,2027-03-22
+POL1422,Olivia Martin,Global Insurance,18417.96,In Force,2026-05-28,2027-05-28
+POL1423,,ABC Insurance,23764.59,In Force,2026-10-21,2027-10-21
+POL1424,Michael Brown,ABC Insurance,24943.44,Terminated,2026-08-02,2027-08-02
+POL1425,Michael Brown,Global Insurance,22534.86,In Force,2026-09-11,2027-09-11
+POL1426,Emma Garcia,ABC Insurance,23569.1,Terminated,2026-06-02,2027-06-02
+POL1427,Sophia Taylor,National Insurance,22785.2,In Force,2026-05-26,2027-05-26
+POL1428,Sophia Taylor,Global Insurance,8856.23,In Force,2026-09-16,2027-09-16
+POL1429,Michael Brown,National Insurance,17965.71,Pending,2026-06-19,2027-06-19
+POL1430,John Smith,Global Insurance,20815.35,Pending,2026-04-06,2027-04-06
+POL1431,Michael Brown,National Insurance,21539.8,Pending,2026-04-09,2027-04-09
+POL1432,Sarah Johnson,National Insurance,18385.12,In Force,2026-06-17,2027-06-17
+POL1433,,Global Insurance,23716.51,In Force,2026-03-13,2027-03-13
+POL1434,James Anderson,XYZ Insurance,13934.71,Terminated,2026-05-14,2027-05-14
+POL1435,David Wilson,ABC Insurance,10231.06,Terminated,2026-06-18,2027-06-18
+POL1436,John Smith,ABC Insurance,14307.9,In Force,2026-05-01,2027-05-01
+POL1437,Daniel Thomas,Global Insurance,18805.81,Pending,2026-07-27,2027-07-27
+POL1438,Olivia Martin,XYZ Insurance,9382.57,In Force,2026-06-01,2027-06-01
+POL1439,Michael Brown,National Insurance,19954.7,Pending,2026-09-02,2027-09-02
+POL1440,James Anderson,National Insurance,20147.01,Pending,2026-07-11,2027-07-11
+POL1441,Emily Davis,ABC Insurance,16010.13,Pending,2026-04-22,2027-04-22
+POL1442,Sarah Johnson,ABC Insurance,6235.16,Pending,2026-07-05,2027-07-05
+POL1443,Emily Davis,XYZ Insurance,8290.74,Pending,2026-09-16,2027-09-16
+POL1444,Sarah Johnson,XYZ Insurance,19338.36,Terminated,2026-08-15,2027-08-15
+POL1445,Daniel Thomas,National Insurance,21173.84,Terminated,2026-02-16,2027-02-16
+POL1446,Daniel Thomas,National Insurance,14635.97,In Force,2026-03-09,2027-03-09
+POL1447,Sophia Taylor,Global Insurance,19465.6,Terminated,2026-10-14,2027-10-14
+POL1448,John Smith,XYZ Insurance,17066.23,In Force,2026-05-11,2027-05-11
+POL1449,Olivia Martin,ABC Insurance,15823.27,In Force,2026-08-05,2027-08-05
+POL1450,Sophia Taylor,ABC Insurance,10741.81,In Force,2026-02-05,2027-02-05
+POL1451,James Anderson,Global Insurance,24857.13,Terminated,2026-03-11,2027-03-11
+POL1452,James Anderson,National Insurance,6605.0,Pending,2026-08-18,2027-08-18
+POL1453,Michael Brown,Global Insurance,7872.66,Pending,2026-10-04,2027-10-04
+POL1454,Daniel Thomas,XYZ Insurance,20057.16,In Force,2026-07-21,2027-07-21
+POL1455,John Smith,Global Insurance,14260.08,Pending,2026-01-02,2027-01-02
+POL1456,James Anderson,National Insurance,21967.21,In Force,2026-10-06,2027-10-06
+POL1457,Olivia Martin,XYZ Insurance,10512.99,Pending,2026-08-24,2027-08-24
+POL1458,John Smith,National Insurance,17298.46,In Force,2026-02-27,2027-02-27
+POL1459,Emily Davis,ABC Insurance,7017.93,In Force,2026-05-04,2027-05-04
+POL1460,Emma Garcia,ABC Insurance,9894.68,In Force,2026-08-17,2027-08-17
+POL1461,Sophia Taylor,XYZ Insurance,15795.2,In Force,2026-07-25,2027-07-25
+POL1462,Daniel Thomas,Global Insurance,9683.23,Pending,2026-03-13,2027-03-13
+POL1463,Olivia Martin,Global Insurance,9738.08,In Force,2026-10-22,2027-10-22
+POL1464,Emily Davis,National Insurance,11010.02,In Force,2026-09-24,2027-09-24
+POL1465,Emma Garcia,XYZ Insurance,17519.86,Terminated,2026-10-13,2027-10-13
+POL1466,Sophia Taylor,ABC Insurance,24445.8,Pending,2026-10-12,2027-10-12
+POL1467,,Global Insurance,18926.17,Terminated,2026-07-15,2027-07-15
+POL1468,David Wilson,National Insurance,9177.58,Pending,2026-03-18,2027-03-18
+POL1469,Emily Davis,XYZ Insurance,11014.73,Pending,2026-08-31,2027-08-31
+POL1470,Sophia Taylor,ABC Insurance,16247.72,Terminated,2026-03-15,2027-03-15
+POL1471,Daniel Thomas,XYZ Insurance,12768.38,Terminated,2026-10-13,2027-10-13
+POL1472,Olivia Martin,ABC Insurance,23444.52,Terminated,2026-04-15,2027-04-15
+POL1473,Daniel Thomas,XYZ Insurance,6030.73,Terminated,2026-02-17,2027-02-17
+POL1474,Sarah Johnson,XYZ Insurance,21093.01,Pending,2026-01-21,2027-01-21
+POL1475,Emily Davis,National Insurance,9177.78,Terminated,2026-10-14,2027-10-14
+POL1476,John Smith,XYZ Insurance,23743.2,Pending,2026-06-05,2027-06-05
+POL1477,Sophia Taylor,XYZ Insurance,18912.53,Pending,2026-03-02,2027-03-02
+POL1478,James Anderson,XYZ Insurance,16041.59,Terminated,2026-04-15,2027-04-15
+POL1479,Sophia Taylor,Global Insurance,11668.45,Terminated,2026-07-14,2027-07-14
+POL1480,Sophia Taylor,National Insurance,6972.16,Pending,2026-09-20,2027-09-20
+POL1481,Olivia Martin,XYZ Insurance,12914.1,Terminated,2026-08-29,2027-08-29
+POL1482,Emma Garcia,XYZ Insurance,19825.05,In Force,2026-01-24,2027-01-24
+POL1483,Daniel Thomas,National Insurance,10903.85,In Force,2026-05-14,2027-05-14
+POL1484,Emily Davis,National Insurance,16395.79,In Force,2026-06-18,2027-06-18
+POL1485,Daniel Thomas,Global Insurance,10146.54,Terminated,2026-09-13,2027-09-13
+POL1486,Sophia Taylor,XYZ Insurance,19655.44,Terminated,2026-09-09,2027-09-09
+POL1487,Michael Brown,National Insurance,8680.96,Pending,2026-03-28,2027-03-28
+POL1488,Daniel Thomas,ABC Insurance,22281.37,In Force,2026-01-31,2027-01-31
+POL1489,John Smith,National Insurance,8249.83,Pending,2026-01-25,2027-01-25
+POL1490,Sarah Johnson,XYZ Insurance,5182.83,Pending,2026-04-29,2027-04-29
+POL1491,Olivia Martin,ABC Insurance,17356.7,Pending,2026-08-22,2027-08-22
+POL1492,Sophia Taylor,ABC Insurance,5132.25,Pending,2026-09-05,2027-09-05
+POL1493,John Smith,ABC Insurance,15588.35,Terminated,2026-07-30,2027-07-30
+POL1494,David Wilson,ABC Insurance,15544.32,Pending,2026-10-02,2027-10-02
+POL1495,Michael Brown,ABC Insurance,23360.98,Pending,2026-08-09,2027-08-09
+POL1496,Emily Davis,XYZ Insurance,17395.62,Terminated,2026-03-18,2027-03-18
+POL1497,David Wilson,National Insurance,6580.38,Terminated,2026-07-01,2027-07-01
+POL1498,Emma Garcia,XYZ Insurance,24804.66,In Force,2026-08-24,2027-08-24
+POL1499,Sarah Johnson,ABC Insurance,6870.01,Terminated,2026-06-03,2027-06-03
+POL1500,Daniel Thomas,National Insurance,6122.3,In Force,2026-07-13,2027-07-13
+POL1501,Sarah Johnson,National Insurance,21906.6,Pending,2026-03-29,2027-03-29
+POL1502,Emma Garcia,ABC Insurance,22895.82,In Force,2026-06-19,2027-06-19
+POL1503,Emily Davis,National Insurance,10421.9,In Force,2026-04-28,2027-04-28
+POL1504,Daniel Thomas,ABC Insurance,9087.09,Terminated,2026-05-24,2027-05-24
+POL1505,Emily Davis,XYZ Insurance,20045.09,Pending,2026-01-09,2027-01-09
+POL1506,Sarah Johnson,Global Insurance,8249.01,In Force,2026-07-23,2027-07-23
+POL1507,James Anderson,Global Insurance,12676.92,Pending,2026-10-18,2027-10-18
+POL1508,Sarah Johnson,Global Insurance,6073.93,Terminated,2026-03-13,2027-03-13
+POL1509,Sarah Johnson,Global Insurance,17103.37,Pending,2026-04-29,2027-04-29
+POL1510,Olivia Martin,ABC Insurance,17682.46,Terminated,2026-07-23,2027-07-23
+POL1511,Emily Davis,Global Insurance,16060.75,Terminated,2026-09-09,2027-09-09
+POL1512,Michael Brown,National Insurance,6713.88,Pending,2026-08-10,2027-08-10
+POL1513,Emily Davis,ABC Insurance,6640.76,In Force,2026-06-01,2027-06-01
+POL1514,Michael Brown,National Insurance,11333.56,In Force,2026-07-14,2027-07-14
+POL1515,John Smith,Global Insurance,13894.72,Terminated,2026-02-16,2027-02-16
+POL1516,Michael Brown,ABC Insurance,8747.84,Terminated,2026-02-22,2027-02-22
+POL1517,Daniel Thomas,National Insurance,7065.86,In Force,2026-10-13,2027-10-13
+POL1518,Daniel Thomas,ABC Insurance,16938.49,Terminated,2026-07-01,2027-07-01
+POL1519,John Smith,Global Insurance,13276.2,In Force,2026-07-17,2027-07-17
+POL1520,Emily Davis,XYZ Insurance,18706.32,In Force,2026-10-14,2027-10-14
+POL1521,David Wilson,Global Insurance,10368.14,In Force,2026-03-13,2027-03-13
+POL1522,Michael Brown,National Insurance,10519.24,Terminated,2026-02-02,2027-02-02
+POL1523,Sarah Johnson,Global Insurance,10033.99,In Force,2026-09-05,2027-09-05
+POL1524,Emma Garcia,XYZ Insurance,14157.23,In Force,2026-09-11,2027-09-11
+POL1525,John Smith,National Insurance,11644.34,Pending,2026-06-05,2027-06-05
+POL1526,Olivia Martin,National Insurance,11694.72,Pending,2026-07-14,2027-07-14
+POL1527,David Wilson,Global Insurance,17064.23,Pending,2026-03-11,2027-03-11
+POL1528,Sophia Taylor,Global Insurance,8552.75,Terminated,2026-04-13,2027-04-13
+POL1529,David Wilson,National Insurance,24355.26,In Force,2026-06-13,2027-06-13
+POL1530,,Global Insurance,21329.89,Terminated,2026-06-16,2027-06-16
+POL1531,Sarah Johnson,XYZ Insurance,16844.54,Pending,2026-07-06,2027-07-06
+POL1532,Daniel Thomas,ABC Insurance,24060.09,Terminated,2026-04-03,2027-04-03
+POL1533,Sophia Taylor,Global Insurance,21625.64,In Force,2026-04-18,2027-04-18
+POL1534,Sophia Taylor,XYZ Insurance,17666.72,In Force,2026-07-29,2027-07-29
+POL1535,Michael Brown,National Insurance,20781.54,In Force,2026-05-10,2027-05-10
+POL1536,Emma Garcia,National Insurance,17144.88,Pending,2026-08-18,2027-08-18
+POL1537,James Anderson,ABC Insurance,21314.42,Terminated,2026-09-17,2027-09-17
+POL1538,Emma Garcia,ABC Insurance,7187.39,In Force,2026-10-02,2027-10-02
+POL1539,Michael Brown,ABC Insurance,16264.41,Pending,2026-07-01,2027-07-01
+POL1540,Olivia Martin,National Insurance,7618.89,In Force,2026-07-24,2027-07-24
+POL1541,Emily Davis,XYZ Insurance,13915.57,Terminated,2026-05-13,2027-05-13
+POL1542,Emma Garcia,XYZ Insurance,11899.35,In Force,2026-08-26,2027-08-26
+POL1543,Sarah Johnson,Global Insurance,13319.51,In Force,2026-09-05,2027-09-05
+POL1544,Michael Brown,Global Insurance,11237.81,Terminated,2026-03-01,2027-03-01
+POL1545,,National Insurance,11966.01,In Force,2026-04-16,2027-04-16
+POL1546,Sophia Taylor,Global Insurance,6343.49,In Force,2026-08-13,2027-08-13
+POL1547,John Smith,Global Insurance,18459.4,Pending,2026-02-28,2027-02-28
+POL1548,Emily Davis,XYZ Insurance,16538.21,Terminated,2026-03-26,2027-03-26
+POL1549,James Anderson,National Insurance,9637.11,Terminated,2026-10-14,2027-10-14
+POL1550,Michael Brown,National Insurance,12911.65,Pending,2026-04-05,2027-04-05
+POL1551,Sophia Taylor,National Insurance,12776.72,Pending,2026-04-12,2027-04-12
+POL1552,Emily Davis,Global Insurance,20046.51,In Force,2026-04-20,2027-04-20
+POL1553,Sarah Johnson,XYZ Insurance,12815.86,In Force,2026-10-23,2027-10-23
+POL1554,Sarah Johnson,Global Insurance,18914.03,Terminated,2026-08-23,2027-08-23
+POL1555,Olivia Martin,National Insurance,17226.17,Pending,2026-09-28,2027-09-28
+POL1556,Olivia Martin,Global Insurance,21910.36,Pending,2026-02-28,2027-02-28
+POL1557,David Wilson,ABC Insurance,18442.2,Terminated,2026-03-30,2027-03-30
+POL1558,Emily Davis,Global Insurance,7338.98,Terminated,2026-03-02,2027-03-02
+POL1559,Daniel Thomas,National Insurance,13364.78,In Force,2026-03-14,2027-03-14
+POL1560,James Anderson,National Insurance,8715.07,Pending,2026-10-22,2027-10-22
+POL1561,Michael Brown,XYZ Insurance,14792.84,In Force,2026-10-03,2027-10-03
+POL1562,Olivia Martin,National Insurance,17888.2,Terminated,2026-04-06,2027-04-06
+POL1563,Sophia Taylor,XYZ Insurance,8902.57,Terminated,2026-01-05,2027-01-05
+POL1564,Daniel Thomas,National Insurance,13182.69,Terminated,2026-10-15,2027-10-15
+POL1565,Sophia Taylor,National Insurance,8345.07,Pending,2026-08-01,2027-08-01
+POL1566,Emily Davis,Global Insurance,5653.9,In Force,2026-01-16,2027-01-16
+POL1567,David Wilson,XYZ Insurance,20614.8,Pending,2026-10-03,2027-10-03
+POL1568,Daniel Thomas,ABC Insurance,16454.28,Terminated,2026-09-11,2027-09-11
+POL1569,Olivia Martin,ABC Insurance,20200.08,Terminated,2026-10-06,2027-10-06
+POL1570,Emily Davis,National Insurance,7048.33,Pending,2026-10-07,2027-10-07
+POL1571,David Wilson,ABC Insurance,13994.65,Terminated,2026-05-07,2027-05-07
+POL1572,Sophia Taylor,ABC Insurance,20512.63,In Force,2026-02-14,2027-02-14
+POL1573,Emma Garcia,Global Insurance,22220.97,Pending,2026-04-18,2027-04-18
+POL1574,Michael Brown,XYZ Insurance,20696.99,In Force,2026-08-08,2027-08-08
+POL1575,Emma Garcia,Global Insurance,16145.62,Pending,2026-01-31,2027-01-31
+POL1576,Michael Brown,Global Insurance,24580.0,Terminated,2026-10-03,2027-10-03
+POL1577,Emma Garcia,Global Insurance,24047.95,Pending,2026-05-29,2027-05-29
+POL1578,Michael Brown,National Insurance,23875.37,Terminated,2026-02-18,2027-02-18
+POL1579,Michael Brown,XYZ Insurance,7924.87,Terminated,2026-03-06,2027-03-06
+POL1580,James Anderson,National Insurance,7843.43,Pending,2026-05-07,2027-05-07
+POL1581,James Anderson,National Insurance,14039.83,Pending,2026-05-18,2027-05-18
+POL1582,James Anderson,Global Insurance,18894.07,Terminated,2026-02-17,2027-02-17
+POL1583,Sophia Taylor,Global Insurance,16639.11,Pending,2026-08-21,2027-08-21
+POL1584,Sophia Taylor,Global Insurance,22002.12,Pending,2026-02-17,2027-02-17
+POL1585,Emily Davis,National Insurance,21496.95,Terminated,2026-07-23,2027-07-23
+POL1586,Olivia Martin,Global Insurance,11755.1,Pending,2026-05-18,2027-05-18
+POL1587,Emma Garcia,National Insurance,20766.07,Pending,2026-03-08,2027-03-08
+POL1588,John Smith,ABC Insurance,17523.59,Terminated,2026-01-25,2027-01-25
+POL1589,Sarah Johnson,XYZ Insurance,13825.72,In Force,2026-01-09,2027-01-09
+POL1590,Emily Davis,XYZ Insurance,22642.96,Terminated,2026-08-08,2027-08-08
+POL1591,David Wilson,ABC Insurance,18091.76,Terminated,2026-03-23,2027-03-23
+POL1592,Olivia Martin,XYZ Insurance,6035.75,Pending,2026-02-12,2027-02-12
+POL1593,Emily Davis,National Insurance,18109.7,Pending,2026-06-06,2027-06-06
+POL1594,John Smith,XYZ Insurance,14536.13,In Force,2026-02-18,2027-02-18
+POL1595,Daniel Thomas,National Insurance,5185.74,Pending,2026-04-26,2027-04-26
+POL1596,Sarah Johnson,National Insurance,18880.62,Terminated,2026-06-25,2027-06-25
+POL1597,Emily Davis,National Insurance,6786.62,In Force,2026-02-06,2027-02-06
+POL1598,Olivia Martin,Global Insurance,22619.78,In Force,2026-02-22,2027-02-22
+POL1599,Michael Brown,XYZ Insurance,6368.23,Pending,2026-07-15,2027-07-15
+POL1600,Emma Garcia,XYZ Insurance,13801.99,Pending,2026-01-05,2027-01-05
+POL1601,Michael Brown,National Insurance,17321.52,Terminated,2026-04-20,2027-04-20
+POL1602,Sarah Johnson,ABC Insurance,7800.26,In Force,2026-04-22,2027-04-22
+POL1603,Olivia Martin,National Insurance,11290.07,In Force,2026-07-16,2027-07-16
+POL1604,David Wilson,ABC Insurance,9963.34,Pending,2026-05-07,2027-05-07
+POL1605,John Smith,Global Insurance,9108.91,Pending,2026-05-26,2027-05-26
+POL1606,Emily Davis,National Insurance,11410.84,In Force,2026-09-18,2027-09-18
+POL1607,Sophia Taylor,National Insurance,7254.87,Terminated,2026-05-03,2027-05-03
+POL1608,Daniel Thomas,ABC Insurance,24737.65,Terminated,2026-02-06,2027-02-06
+POL1609,James Anderson,National Insurance,12308.25,Pending,2026-03-09,2027-03-09
+POL1610,Sophia Taylor,ABC Insurance,5333.79,In Force,2026-03-30,2027-03-30
+POL1611,David Wilson,XYZ Insurance,5796.54,In Force,2026-01-08,2027-01-08
+POL1612,Daniel Thomas,Global Insurance,18071.41,Pending,2026-07-23,2027-07-23
+POL1613,James Anderson,National Insurance,6648.56,Pending,2026-08-01,2027-08-01
+POL1614,Emma Garcia,XYZ Insurance,10549.35,Terminated,2026-10-03,2027-10-03
+POL1615,Daniel Thomas,XYZ Insurance,24486.27,In Force,2026-02-10,2027-02-10
+POL1616,Olivia Martin,National Insurance,16728.74,Pending,2026-10-02,2027-10-02
+POL1617,David Wilson,National Insurance,19599.17,In Force,2026-02-03,2027-02-03
+POL1618,Emily Davis,ABC Insurance,23492.56,In Force,2026-01-30,2027-01-30
+POL1619,Emma Garcia,ABC Insurance,11185.8,Pending,2026-08-21,2027-08-21
+POL1620,Sarah Johnson,ABC Insurance,19158.01,Pending,2026-03-31,2027-03-31
+POL1621,Michael Brown,National Insurance,24060.32,Pending,2026-01-06,2027-01-06
+POL1622,David Wilson,XYZ Insurance,12437.39,Pending,2026-09-22,2027-09-22
+POL1623,Sarah Johnson,ABC Insurance,11700.22,Terminated,2026-05-18,2027-05-18
+POL1624,Daniel Thomas,ABC Insurance,10258.99,Pending,2026-05-20,2027-05-20
+POL1625,Sophia Taylor,National Insurance,15215.64,In Force,2026-02-09,2027-02-09
+POL1626,Emma Garcia,XYZ Insurance,12353.76,Terminated,2026-09-13,2027-09-13
+POL1627,Emma Garcia,ABC Insurance,9568.09,Pending,2026-02-22,2027-02-22
+POL1628,,ABC Insurance,9891.03,Terminated,2026-01-02,2027-01-02
+POL1629,James Anderson,XYZ Insurance,8579.22,In Force,2026-07-06,2027-07-06
+POL1630,James Anderson,XYZ Insurance,11436.04,Terminated,2026-10-11,2027-10-11
+POL1631,David Wilson,ABC Insurance,16430.72,In Force,2026-06-13,2027-06-13
+POL1632,John Smith,XYZ Insurance,9463.7,Pending,2026-09-15,2027-09-15
+POL1633,James Anderson,ABC Insurance,22539.82,Terminated,2026-01-24,2027-01-24
+POL1634,Olivia Martin,ABC Insurance,16061.83,In Force,2026-06-09,2027-06-09
+POL1635,Emily Davis,Global Insurance,16276.13,Terminated,2026-07-08,2027-07-08
+POL1636,Sophia Taylor,Global Insurance,16833.82,Terminated,2026-05-05,2027-05-05
+POL1637,Daniel Thomas,XYZ Insurance,8011.33,Terminated,2026-04-11,2027-04-11
+POL1638,Emily Davis,Global Insurance,17718.84,Pending,2026-01-13,2027-01-13
+POL1639,Olivia Martin,ABC Insurance,20178.58,Terminated,2026-01-05,2027-01-05
+POL1640,Sarah Johnson,XYZ Insurance,15596.29,In Force,2026-06-07,2027-06-07
+POL1641,,ABC Insurance,24451.18,In Force,2026-08-03,2027-08-03
+POL1642,Sarah Johnson,ABC Insurance,23925.49,Pending,2026-05-24,2027-05-24
+POL1643,Olivia Martin,National Insurance,24491.1,In Force,2026-07-31,2027-07-31
+POL1644,Sarah Johnson,XYZ Insurance,17744.31,Terminated,2026-10-25,2027-10-25
+POL1645,Emma Garcia,ABC Insurance,13699.66,In Force,2026-02-08,2027-02-08
+POL1646,David Wilson,Global Insurance,22018.27,Terminated,2026-05-02,2027-05-02
+POL1647,Olivia Martin,National Insurance,10939.12,In Force,2026-06-17,2027-06-17
+POL1648,Michael Brown,ABC Insurance,8108.21,In Force,2026-04-14,2027-04-14
+POL1649,Sophia Taylor,Global Insurance,13130.25,Pending,2026-08-19,2027-08-19
+POL1650,Emily Davis,National Insurance,11166.15,Terminated,2026-07-03,2027-07-03
+POL1651,Sarah Johnson,XYZ Insurance,21151.94,Terminated,2026-03-03,2027-03-03
+POL1652,Emily Davis,Global Insurance,8466.48,Pending,2026-01-21,2027-01-21
+POL1653,,National Insurance,15269.19,Pending,2026-05-08,2027-05-08
+POL1654,David Wilson,XYZ Insurance,5621.64,Terminated,2026-06-03,2027-06-03
+POL1655,Daniel Thomas,XYZ Insurance,7394.51,In Force,2026-08-20,2027-08-20
+POL1656,Sarah Johnson,ABC Insurance,6733.38,In Force,2026-03-13,2027-03-13
+POL1657,Emily Davis,National Insurance,12444.79,Pending,2026-03-08,2027-03-08
+POL1658,Emma Garcia,Global Insurance,23348.57,In Force,2026-02-13,2027-02-13
+POL1659,Sarah Johnson,XYZ Insurance,23049.92,Terminated,2026-01-12,2027-01-12
+POL1660,Sarah Johnson,Global Insurance,7450.55,Terminated,2026-03-07,2027-03-07
+POL1661,Michael Brown,National Insurance,21433.71,Terminated,2026-01-26,2027-01-26
+POL1662,John Smith,National Insurance,19164.26,In Force,2026-09-12,2027-09-12
+POL1663,Emily Davis,XYZ Insurance,10499.64,Terminated,2026-07-01,2027-07-01
+POL1664,John Smith,XYZ Insurance,17945.57,Terminated,2026-03-18,2027-03-18
+POL1665,,National Insurance,6219.58,Terminated,2026-07-30,2027-07-30
+POL1666,Michael Brown,National Insurance,8989.16,Pending,2026-07-16,2027-07-16
+POL1667,Daniel Thomas,ABC Insurance,24788.07,Pending,2026-05-08,2027-05-08
+POL1668,Sophia Taylor,National Insurance,11880.68,Pending,2026-07-03,2027-07-03
+POL1669,Olivia Martin,National Insurance,10408.71,In Force,2026-09-15,2027-09-15
+POL1670,Emma Garcia,XYZ Insurance,5586.07,Terminated,2026-06-13,2027-06-13
+POL1671,Sophia Taylor,Global Insurance,20336.84,In Force,2026-01-30,2027-01-30
+POL1672,Sarah Johnson,XYZ Insurance,18137.29,Terminated,2026-03-23,2027-03-23
+POL1673,John Smith,XYZ Insurance,16513.84,Terminated,2026-10-01,2027-10-01
+POL1674,Michael Brown,XYZ Insurance,9731.02,Terminated,2026-07-01,2027-07-01
+POL1675,Emma Garcia,ABC Insurance,19069.06,Terminated,2026-07-03,2027-07-03
+POL1676,Emma Garcia,XYZ Insurance,16262.18,In Force,2026-10-18,2027-10-18
+POL1677,Daniel Thomas,Global Insurance,8511.14,In Force,2026-09-10,2027-09-10
+POL1678,John Smith,XYZ Insurance,17033.26,In Force,2026-02-16,2027-02-16
+POL1679,Sophia Taylor,ABC Insurance,11634.68,Pending,2026-09-27,2027-09-27
+POL1680,Michael Brown,Global Insurance,19838.75,Terminated,2026-04-14,2027-04-14
+POL1681,John Smith,XYZ Insurance,16732.18,In Force,2026-01-31,2027-01-31
+POL1682,Daniel Thomas,Global Insurance,24211.18,Terminated,2026-02-26,2027-02-26
+POL1683,Emma Garcia,ABC Insurance,11731.22,Terminated,2026-07-22,2027-07-22
+POL1684,Michael Brown,National Insurance,20836.85,Terminated,2026-03-11,2027-03-11
+POL1685,Michael Brown,Global Insurance,9464.74,Pending,2026-06-12,2027-06-12
+POL1686,James Anderson,Global Insurance,19679.9,Terminated,2026-03-31,2027-03-31
+POL1687,Michael Brown,ABC Insurance,23975.76,Pending,2026-03-07,2027-03-07
+POL1688,Emma Garcia,ABC Insurance,8641.64,Terminated,2026-07-20,2027-07-20
+POL1689,Emma Garcia,ABC Insurance,23733.76,In Force,2026-04-24,2027-04-24
+POL1690,Sarah Johnson,XYZ Insurance,11936.2,Terminated,2026-06-19,2027-06-19
+POL1691,Sarah Johnson,Global Insurance,13932.6,Terminated,2026-03-27,2027-03-27
+POL1692,Emily Davis,ABC Insurance,12009.62,In Force,2026-04-18,2027-04-18
+POL1693,John Smith,National Insurance,13764.4,Terminated,2026-01-01,2027-01-01
+POL1694,James Anderson,National Insurance,22635.41,Terminated,2026-03-27,2027-03-27
+POL1695,James Anderson,ABC Insurance,21576.14,Pending,2026-10-07,2027-10-07
+POL1696,Michael Brown,National Insurance,6474.19,In Force,2026-04-26,2027-04-26
+POL1697,John Smith,Global Insurance,10222.55,In Force,2026-05-31,2027-05-31
+POL1698,Olivia Martin,XYZ Insurance,22758.63,In Force,2026-02-07,2027-02-07
+POL1699,Daniel Thomas,ABC Insurance,11759.01,Pending,2026-02-08,2027-02-08
+POL1700,John Smith,National Insurance,23848.85,In Force,2026-09-05,2027-09-05
+POL1701,Michael Brown,ABC Insurance,7025.16,In Force,2026-08-11,2027-08-11
+POL1702,,Global Insurance,18211.96,Terminated,2026-04-08,2027-04-08
+POL1703,Sarah Johnson,ABC Insurance,12858.04,Pending,2026-05-02,2027-05-02
+POL1704,Michael Brown,ABC Insurance,12216.58,Terminated,2026-09-09,2027-09-09
+POL1705,David Wilson,National Insurance,9493.5,In Force,2026-02-14,2027-02-14
+POL1706,Michael Brown,Global Insurance,24541.15,Terminated,2026-04-16,2027-04-16
+POL1707,David Wilson,National Insurance,14418.89,Pending,2026-03-01,2027-03-01
+POL1708,Sarah Johnson,National Insurance,8697.62,Terminated,2026-05-16,2027-05-16
+POL1709,Michael Brown,National Insurance,5892.34,Terminated,2026-07-09,2027-07-09
+POL1710,David Wilson,XYZ Insurance,21741.58,Pending,2026-08-27,2027-08-27
+POL1711,,ABC Insurance,6714.15,Terminated,2026-02-01,2027-02-01
+POL1712,James Anderson,XYZ Insurance,16072.04,Terminated,2026-10-05,2027-10-05
+POL1713,James Anderson,National Insurance,16454.29,In Force,2026-09-25,2027-09-25
+POL1714,David Wilson,ABC Insurance,12896.09,Pending,2026-09-01,2027-09-01
+POL1715,Daniel Thomas,XYZ Insurance,7905.64,Terminated,2026-01-18,2027-01-18
+POL1716,Michael Brown,XYZ Insurance,21169.21,In Force,2026-03-30,2027-03-30
+POL1717,James Anderson,ABC Insurance,24765.6,Terminated,2026-01-22,2027-01-22
+POL1718,Michael Brown,Global Insurance,11394.99,Pending,2026-04-14,2027-04-14
+POL1719,Sarah Johnson,National Insurance,16127.28,Pending,2026-02-04,2027-02-04
+POL1720,David Wilson,National Insurance,23343.24,In Force,2026-06-16,2027-06-16
+POL1721,Daniel Thomas,National Insurance,7250.38,In Force,2026-10-28,2027-10-28
+POL1722,Emma Garcia,ABC Insurance,23498.56,Pending,2026-03-17,2027-03-17
+POL1723,David Wilson,Global Insurance,22557.87,Terminated,2026-02-21,2027-02-21
+POL1724,Sophia Taylor,National Insurance,5749.31,Terminated,2026-07-16,2027-07-16
+POL1725,Michael Brown,National Insurance,5775.65,Terminated,2026-07-26,2027-07-26
+POL1726,John Smith,National Insurance,23416.7,Terminated,2026-05-02,2027-05-02
+POL1727,Olivia Martin,Global Insurance,11218.99,Terminated,2026-01-11,2027-01-11
+POL1728,Emily Davis,XYZ Insurance,11009.61,Pending,2026-02-20,2027-02-20
+POL1729,Olivia Martin,Global Insurance,19575.99,Pending,2026-08-15,2027-08-15
+POL1730,Emily Davis,National Insurance,9227.81,Terminated,2026-02-15,2027-02-15
+POL1731,Daniel Thomas,Global Insurance,21420.35,Pending,2026-09-06,2027-09-06
+POL1732,Sarah Johnson,Global Insurance,19191.39,Terminated,2026-03-23,2027-03-23
+POL1733,Daniel Thomas,ABC Insurance,8974.75,In Force,2026-03-11,2027-03-11
+POL1734,Emily Davis,ABC Insurance,14128.97,Terminated,2026-01-30,2027-01-30
+POL1735,David Wilson,Global Insurance,21470.13,Pending,2026-04-12,2027-04-12
+POL1736,Sarah Johnson,ABC Insurance,9838.76,Terminated,2026-07-23,2027-07-23
+POL1737,Michael Brown,National Insurance,16737.6,Terminated,2026-08-17,2027-08-17
+POL1738,Michael Brown,Global Insurance,19979.22,Pending,2026-06-26,2027-06-26
+POL1739,David Wilson,ABC Insurance,12731.31,In Force,2026-02-16,2027-02-16
+POL1740,Emily Davis,XYZ Insurance,17947.6,Pending,2026-10-20,2027-10-20
+POL1741,David Wilson,National Insurance,15265.62,Pending,2026-04-16,2027-04-16
+POL1742,Sophia Taylor,XYZ Insurance,17947.43,Pending,2026-01-05,2027-01-05
+POL1743,Emily Davis,Global Insurance,17166.88,Terminated,2026-01-05,2027-01-05
+POL1744,James Anderson,National Insurance,22031.72,Terminated,2026-05-21,2027-05-21
+POL1745,Emily Davis,National Insurance,11042.9,Pending,2026-05-10,2027-05-10
+POL1746,Emma Garcia,ABC Insurance,5146.95,Pending,2026-07-23,2027-07-23
+POL1747,Daniel Thomas,Global Insurance,10969.52,In Force,2026-07-11,2027-07-11
+POL1748,Sarah Johnson,Global Insurance,24767.22,Pending,2026-09-04,2027-09-04
+POL1749,David Wilson,Global Insurance,18122.39,Pending,2026-06-16,2027-06-16
+POL1750,Emily Davis,XYZ Insurance,15345.87,In Force,2026-06-02,2027-06-02
+POL1751,Emma Garcia,National Insurance,18210.61,Pending,2026-01-30,2027-01-30
+POL1752,John Smith,National Insurance,24949.38,Terminated,2026-03-13,2027-03-13
+POL1753,James Anderson,National Insurance,19734.64,Pending,2026-08-03,2027-08-03
+POL1754,Emily Davis,Global Insurance,19531.0,In Force,2026-10-20,2027-10-20
+POL1755,Sophia Taylor,Global Insurance,15646.3,In Force,2026-10-01,2027-10-01
+POL1756,Michael Brown,Global Insurance,6952.06,In Force,2026-10-13,2027-10-13
+POL1757,Daniel Thomas,XYZ Insurance,23938.47,Terminated,2026-05-13,2027-05-13
+POL1758,Emily Davis,Global Insurance,9466.56,Terminated,2026-02-15,2027-02-15
+POL1759,Olivia Martin,Global Insurance,10211.18,Terminated,2026-08-04,2027-08-04
+POL1760,Sarah Johnson,National Insurance,6073.54,Pending,2026-08-26,2027-08-26
+POL1761,,ABC Insurance,14444.39,In Force,2026-10-26,2027-10-26
+POL1762,Sarah Johnson,National Insurance,15596.77,Terminated,2026-09-14,2027-09-14
+POL1763,Michael Brown,XYZ Insurance,24846.96,Terminated,2026-01-28,2027-01-28
+POL1764,Emma Garcia,National Insurance,7864.48,Pending,2026-07-29,2027-07-29
+POL1765,Sarah Johnson,National Insurance,11652.59,In Force,2026-04-03,2027-04-03
+POL1766,John Smith,ABC Insurance,14041.06,In Force,2026-06-10,2027-06-10
+POL1767,Emma Garcia,XYZ Insurance,15291.54,In Force,2026-03-28,2027-03-28
+POL1768,Emma Garcia,National Insurance,17669.75,Terminated,2026-03-08,2027-03-08
+POL1769,Sophia Taylor,National Insurance,5093.38,Pending,2026-08-08,2027-08-08
+POL1770,Olivia Martin,ABC Insurance,22840.13,Pending,2026-04-13,2027-04-13
+POL1771,John Smith,ABC Insurance,17533.74,In Force,2026-04-08,2027-04-08
+POL1772,Olivia Martin,Global Insurance,7578.62,Terminated,2026-04-26,2027-04-26
+POL1773,Emma Garcia,Global Insurance,8340.4,In Force,2026-09-15,2027-09-15
+POL1774,David Wilson,National Insurance,20056.64,Pending,2026-06-02,2027-06-02
+POL1775,Olivia Martin,National Insurance,22759.48,In Force,2026-09-26,2027-09-26
+POL1776,Sophia Taylor,Global Insurance,20002.31,In Force,2026-06-25,2027-06-25
+POL1777,John Smith,XYZ Insurance,9986.43,In Force,2026-07-26,2027-07-26
+POL1778,John Smith,XYZ Insurance,7463.24,Pending,2026-04-19,2027-04-19
+POL1779,James Anderson,Global Insurance,20424.99,Pending,2026-01-20,2027-01-20
+POL1780,Emma Garcia,ABC Insurance,18239.4,Pending,2026-01-25,2027-01-25
+POL1781,John Smith,ABC Insurance,13335.51,Terminated,2026-01-11,2027-01-11
+POL1782,Daniel Thomas,Global Insurance,14487.93,In Force,2026-03-05,2027-03-05
+POL1783,,Global Insurance,13417.43,In Force,2026-04-16,2027-04-16
+POL1784,David Wilson,XYZ Insurance,13376.52,In Force,2026-09-24,2027-09-24
+POL1785,Emma Garcia,ABC Insurance,11154.14,In Force,2026-09-19,2027-09-19
+POL1786,Emily Davis,XYZ Insurance,20559.18,Pending,2026-09-12,2027-09-12
+POL1787,Olivia Martin,National Insurance,10907.02,In Force,2026-04-14,2027-04-14
+POL1788,Sophia Taylor,XYZ Insurance,18764.08,Terminated,2026-10-08,2027-10-08
+POL1789,Emily Davis,ABC Insurance,5254.99,In Force,2026-06-19,2027-06-19
+POL1790,Emma Garcia,National Insurance,7982.89,In Force,2026-02-26,2027-02-26
+POL1791,Sarah Johnson,ABC Insurance,23095.59,Pending,2026-09-19,2027-09-19
+POL1792,Sophia Taylor,Global Insurance,10282.5,In Force,2026-04-29,2027-04-29
+POL1793,Michael Brown,ABC Insurance,22044.97,Terminated,2026-02-21,2027-02-21
+POL1794,James Anderson,ABC Insurance,6899.97,In Force,2026-06-10,2027-06-10
+POL1795,Michael Brown,XYZ Insurance,11573.22,Terminated,2026-01-05,2027-01-05
+POL1796,Sarah Johnson,Global Insurance,21299.29,In Force,2026-05-18,2027-05-18
+POL1797,James Anderson,National Insurance,24246.2,Terminated,2026-02-28,2027-02-28
+POL1798,Sophia Taylor,National Insurance,17976.93,In Force,2026-07-17,2027-07-17
+POL1799,Michael Brown,ABC Insurance,24631.38,In Force,2026-02-27,2027-02-27
+POL1800,James Anderson,National Insurance,21045.3,Pending,2026-02-23,2027-02-23
+POL1801,Michael Brown,National Insurance,20583.29,Pending,2026-08-13,2027-08-13
+POL1802,Michael Brown,National Insurance,23407.96,In Force,2026-01-15,2027-01-15
+POL1803,Sophia Taylor,ABC Insurance,6266.72,Pending,2026-07-30,2027-07-30
+POL1804,John Smith,XYZ Insurance,24557.91,Pending,2026-06-10,2027-06-10
+POL1805,Daniel Thomas,ABC Insurance,13656.96,Pending,2026-06-23,2027-06-23
+POL1806,Sophia Taylor,Global Insurance,18274.21,Pending,2026-05-08,2027-05-08
+POL1807,Michael Brown,ABC Insurance,5232.9,In Force,2026-07-17,2027-07-17
+POL1808,Sophia Taylor,National Insurance,22388.31,In Force,2026-09-16,2027-09-16
+POL1809,Olivia Martin,XYZ Insurance,11617.9,Terminated,2026-09-09,2027-09-09
+POL1810,Daniel Thomas,XYZ Insurance,16009.91,Terminated,2026-01-26,2027-01-26
+POL1811,Emily Davis,ABC Insurance,14181.89,Pending,2026-07-26,2027-07-26
+POL1812,Sarah Johnson,National Insurance,13941.36,In Force,2026-08-18,2027-08-18
+POL1813,John Smith,ABC Insurance,13068.79,In Force,2026-09-12,2027-09-12
+POL1814,Daniel Thomas,ABC Insurance,21518.18,Pending,2026-10-13,2027-10-13
+POL1815,Daniel Thomas,XYZ Insurance,18091.92,Terminated,2026-06-05,2027-06-05
+POL1816,Olivia Martin,ABC Insurance,21831.77,Terminated,2026-06-24,2027-06-24
+POL1817,Daniel Thomas,National Insurance,19333.16,Terminated,2026-06-19,2027-06-19
+POL1818,Sarah Johnson,ABC Insurance,20686.4,In Force,2026-08-20,2027-08-20
+POL1819,Olivia Martin,Global Insurance,21597.68,Terminated,2026-01-02,2027-01-02
+POL1820,,Global Insurance,19041.92,In Force,2026-10-08,2027-10-08
+POL1821,Sophia Taylor,XYZ Insurance,21436.77,Pending,2026-03-26,2027-03-26
+POL1822,Sarah Johnson,Global Insurance,17217.04,In Force,2026-07-29,2027-07-29
+POL1823,James Anderson,XYZ Insurance,14140.92,In Force,2026-03-03,2027-03-03
+POL1824,Sarah Johnson,National Insurance,5930.01,Pending,2026-06-23,2027-06-23
+POL1825,Sophia Taylor,National Insurance,18669.13,Pending,2026-03-05,2027-03-05
+POL1826,Sophia Taylor,ABC Insurance,15607.29,In Force,2026-03-10,2027-03-10
+POL1827,,National Insurance,23487.42,In Force,2026-10-11,2027-10-11
+POL1828,Michael Brown,XYZ Insurance,7071.08,Pending,2026-10-24,2027-10-24
+POL1829,,National Insurance,13373.29,Pending,2026-06-14,2027-06-14
+POL1830,David Wilson,National Insurance,24271.87,Terminated,2026-05-08,2027-05-08
+POL1831,Michael Brown,XYZ Insurance,13254.91,Pending,2026-08-20,2027-08-20
+POL1832,David Wilson,Global Insurance,19237.49,Pending,2026-09-20,2027-09-20
+POL1833,Emily Davis,XYZ Insurance,17483.35,Terminated,2026-04-22,2027-04-22
+POL1834,Michael Brown,XYZ Insurance,15077.87,Pending,2026-06-26,2027-06-26
+POL1835,Sarah Johnson,Global Insurance,16745.6,Pending,2026-06-15,2027-06-15
+POL1836,James Anderson,Global Insurance,22549.54,Terminated,2026-10-20,2027-10-20
+POL1837,Daniel Thomas,ABC Insurance,5505.44,In Force,2026-01-07,2027-01-07
+POL1838,John Smith,XYZ Insurance,10339.57,In Force,2026-01-28,2027-01-28
+POL1839,David Wilson,XYZ Insurance,21787.64,Pending,2026-05-27,2027-05-27
+POL1840,Emily Davis,ABC Insurance,12173.65,Terminated,2026-06-01,2027-06-01
+POL1841,Emma Garcia,XYZ Insurance,19848.25,Pending,2026-02-22,2027-02-22
+POL1842,Emily Davis,Global Insurance,18858.72,In Force,2026-07-19,2027-07-19
+POL1843,James Anderson,National Insurance,24134.04,Pending,2026-07-15,2027-07-15
+POL1844,Daniel Thomas,ABC Insurance,5259.3,Terminated,2026-06-10,2027-06-10
+POL1845,Emma Garcia,National Insurance,21599.67,Pending,2026-04-14,2027-04-14
+POL1846,Emma Garcia,XYZ Insurance,20522.93,In Force,2026-07-08,2027-07-08
+POL1847,Sophia Taylor,XYZ Insurance,24669.07,In Force,2026-05-31,2027-05-31
+POL1848,Michael Brown,ABC Insurance,12543.96,Terminated,2026-04-06,2027-04-06
+POL1849,Daniel Thomas,Global Insurance,8101.33,Pending,2026-05-23,2027-05-23
+POL1850,John Smith,Global Insurance,14326.63,In Force,2026-05-11,2027-05-11
+POL1851,Michael Brown,Global Insurance,16937.61,Pending,2026-01-21,2027-01-21
+POL1852,Sophia Taylor,Global Insurance,6457.62,Pending,2026-06-04,2027-06-04
+POL1853,Daniel Thomas,XYZ Insurance,24139.75,Pending,2026-06-12,2027-06-12
+POL1854,Daniel Thomas,XYZ Insurance,13318.62,Pending,2026-02-04,2027-02-04
+POL1855,Sarah Johnson,Global Insurance,9423.96,In Force,2026-07-26,2027-07-26
+POL1856,Olivia Martin,Global Insurance,10871.49,Pending,2026-06-19,2027-06-19
+POL1857,Sophia Taylor,ABC Insurance,7294.44,Terminated,2026-09-29,2027-09-29
+POL1858,Emily Davis,XYZ Insurance,24177.94,Pending,2026-08-17,2027-08-17
+POL1859,James Anderson,ABC Insurance,13217.52,Pending,2026-06-14,2027-06-14
+POL1860,John Smith,Global Insurance,15286.18,Pending,2026-05-25,2027-05-25
+POL1861,Sophia Taylor,ABC Insurance,10928.68,Pending,2026-08-17,2027-08-17
+POL1862,Olivia Martin,ABC Insurance,23964.24,In Force,2026-04-09,2027-04-09
+POL1863,Daniel Thomas,ABC Insurance,17538.66,In Force,2026-10-03,2027-10-03
+POL1864,James Anderson,ABC Insurance,9111.59,Pending,2026-04-20,2027-04-20
+POL1865,Sarah Johnson,XYZ Insurance,5475.06,Pending,2026-08-11,2027-08-11
+POL1866,John Smith,ABC Insurance,6464.96,In Force,2026-06-19,2027-06-19
+POL1867,Daniel Thomas,ABC Insurance,16499.25,In Force,2026-05-09,2027-05-09
+POL1868,James Anderson,National Insurance,14022.51,Terminated,2026-05-13,2027-05-13
+POL1869,Olivia Martin,ABC Insurance,13290.04,In Force,2026-08-10,2027-08-10
+POL1870,John Smith,ABC Insurance,20119.21,Pending,2026-10-01,2027-10-01
+POL1871,Sarah Johnson,Global Insurance,23560.96,In Force,2026-01-24,2027-01-24
+POL1872,David Wilson,ABC Insurance,10630.35,Terminated,2026-05-29,2027-05-29
+POL1873,James Anderson,ABC Insurance,14479.75,Pending,2026-07-15,2027-07-15
+POL1874,,National Insurance,20935.41,Pending,2026-04-23,2027-04-23
+POL1875,Michael Brown,Global Insurance,18545.78,Pending,2026-06-01,2027-06-01
+POL1876,John Smith,XYZ Insurance,7464.7,In Force,2026-07-11,2027-07-11
+POL1877,Emma Garcia,National Insurance,15743.04,In Force,2026-10-21,2027-10-21
+POL1878,Emily Davis,Global Insurance,9234.74,Pending,2026-06-06,2027-06-06
+POL1879,Michael Brown,XYZ Insurance,8679.85,Pending,2026-09-20,2027-09-20
+POL1880,Emily Davis,ABC Insurance,8627.16,Pending,2026-05-10,2027-05-10
+POL1881,Daniel Thomas,National Insurance,17893.49,In Force,2026-01-28,2027-01-28
+POL1882,Sarah Johnson,Global Insurance,7464.05,Pending,2026-05-29,2027-05-29
+POL1883,Sophia Taylor,Global Insurance,12142.77,Pending,2026-10-25,2027-10-25
+POL1884,Sarah Johnson,Global Insurance,17390.32,In Force,2026-05-01,2027-05-01
+POL1885,Sophia Taylor,National Insurance,12066.92,Pending,2026-06-12,2027-06-12
+POL1886,Emma Garcia,XYZ Insurance,16311.04,Terminated,2026-06-06,2027-06-06
+POL1887,James Anderson,XYZ Insurance,5096.64,In Force,2026-06-11,2027-06-11
+POL1888,James Anderson,Global Insurance,21802.2,In Force,2026-04-24,2027-04-24
+POL1889,Sophia Taylor,National Insurance,13907.16,Terminated,2026-06-19,2027-06-19
+POL1890,Daniel Thomas,ABC Insurance,8515.4,Pending,2026-09-07,2027-09-07
+POL1891,David Wilson,XYZ Insurance,22825.94,In Force,2026-02-11,2027-02-11
+POL1892,Sarah Johnson,ABC Insurance,23342.1,Pending,2026-05-15,2027-05-15
+POL1893,Emma Garcia,National Insurance,20384.01,In Force,2026-01-16,2027-01-16
+POL1894,Daniel Thomas,Global Insurance,15869.39,Pending,2026-01-19,2027-01-19
+POL1895,Michael Brown,Global Insurance,12849.97,Pending,2026-08-30,2027-08-30
+POL1896,Michael Brown,National Insurance,15022.46,In Force,2026-05-29,2027-05-29
+POL1897,Olivia Martin,ABC Insurance,18253.57,Pending,2026-07-23,2027-07-23
+POL1898,Daniel Thomas,XYZ Insurance,13924.41,In Force,2026-03-26,2027-03-26
+POL1899,Emma Garcia,XYZ Insurance,20218.4,Terminated,2026-10-17,2027-10-17
+POL1900,John Smith,XYZ Insurance,20229.45,In Force,2026-07-03,2027-07-03
+POL1901,David Wilson,Global Insurance,9680.37,Pending,2026-02-02,2027-02-02
+POL1902,Daniel Thomas,Global Insurance,12761.86,Terminated,2026-04-16,2027-04-16
+POL1903,John Smith,Global Insurance,7064.5,Pending,2026-01-24,2027-01-24
+POL1904,David Wilson,XYZ Insurance,13033.19,Terminated,2026-05-21,2027-05-21
+POL1905,Emma Garcia,ABC Insurance,15333.26,Terminated,2026-07-07,2027-07-07
+POL1906,Daniel Thomas,National Insurance,12057.96,Terminated,2026-04-25,2027-04-25
+POL1907,Sophia Taylor,ABC Insurance,15036.74,In Force,2026-09-07,2027-09-07
+POL1908,Michael Brown,XYZ Insurance,6541.76,Pending,2026-08-14,2027-08-14
+POL1909,Emily Davis,XYZ Insurance,8738.11,Terminated,2026-05-24,2027-05-24
+POL1910,Emily Davis,National Insurance,21223.45,Pending,2026-03-02,2027-03-02
+POL1911,Sophia Taylor,National Insurance,14580.42,Pending,2026-02-28,2027-02-28
+POL1912,James Anderson,ABC Insurance,9873.41,In Force,2026-03-24,2027-03-24
+POL1913,Emma Garcia,XYZ Insurance,7694.48,Pending,2026-10-21,2027-10-21
+POL1914,Emma Garcia,XYZ Insurance,6118.24,Terminated,2026-01-21,2027-01-21
+POL1915,Daniel Thomas,National Insurance,16987.15,Pending,2026-04-03,2027-04-03
+POL1916,David Wilson,ABC Insurance,9331.87,Pending,2026-01-10,2027-01-10
+POL1917,Sophia Taylor,XYZ Insurance,9387.28,Terminated,2026-08-30,2027-08-30
+POL1918,Emma Garcia,XYZ Insurance,17464.23,Pending,2026-03-15,2027-03-15
+POL1919,Michael Brown,Global Insurance,23447.04,Pending,2026-05-16,2027-05-16
+POL1920,Emily Davis,National Insurance,12709.24,In Force,2026-02-05,2027-02-05
+POL1921,Emily Davis,National Insurance,21530.28,Pending,2026-01-09,2027-01-09
+POL1922,Michael Brown,National Insurance,23032.16,Pending,2026-02-19,2027-02-19
+POL1923,Daniel Thomas,ABC Insurance,6863.8,Pending,2026-01-20,2027-01-20
+POL1924,Emma Garcia,ABC Insurance,22939.38,Pending,2026-03-08,2027-03-08
+POL1925,Daniel Thomas,National Insurance,12407.55,In Force,2026-08-09,2027-08-09
+POL1926,James Anderson,XYZ Insurance,23768.43,Terminated,2026-09-29,2027-09-29
+POL1927,Olivia Martin,ABC Insurance,13509.79,Terminated,2026-07-15,2027-07-15
+POL1928,Emily Davis,ABC Insurance,10665.33,Pending,2026-09-02,2027-09-02
+POL1929,David Wilson,XYZ Insurance,5109.39,Pending,2026-07-29,2027-07-29
+POL1930,Emma Garcia,ABC Insurance,15395.24,Terminated,2026-01-04,2027-01-04
+POL1931,Olivia Martin,National Insurance,12745.4,In Force,2026-04-16,2027-04-16
+POL1932,,Global Insurance,10226.06,Pending,2026-08-07,2027-08-07
+POL1933,Emma Garcia,Global Insurance,17237.61,Pending,2026-08-05,2027-08-05
+POL1934,Emily Davis,National Insurance,16042.1,Pending,2026-07-23,2027-07-23
+POL1935,Michael Brown,Global Insurance,16181.88,Terminated,2026-09-05,2027-09-05
+POL1936,David Wilson,Global Insurance,20483.89,Terminated,2026-05-10,2027-05-10
+POL1937,Sarah Johnson,XYZ Insurance,13931.9,Pending,2026-03-12,2027-03-12
+POL1938,Sarah Johnson,XYZ Insurance,15666.87,Terminated,2026-03-24,2027-03-24
+POL1939,Emma Garcia,ABC Insurance,8214.76,Pending,2026-10-09,2027-10-09
+POL1940,Sarah Johnson,XYZ Insurance,14433.37,Pending,2026-01-03,2027-01-03
+POL1941,Sarah Johnson,ABC Insurance,10261.84,Terminated,2026-08-11,2027-08-11
+POL1942,Emma Garcia,ABC Insurance,19489.89,Terminated,2026-02-10,2027-02-10
+POL1943,David Wilson,ABC Insurance,23914.32,In Force,2026-09-24,2027-09-24
+POL1944,Sophia Taylor,ABC Insurance,9034.14,Pending,2026-09-11,2027-09-11
+POL1945,David Wilson,XYZ Insurance,5672.19,Pending,2026-09-23,2027-09-23
+POL1946,Daniel Thomas,XYZ Insurance,17303.8,Pending,2026-09-19,2027-09-19
+POL1947,Olivia Martin,XYZ Insurance,18100.38,In Force,2026-01-19,2027-01-19
+POL1948,David Wilson,National Insurance,12062.55,Terminated,2026-02-14,2027-02-14
+POL1949,Emma Garcia,XYZ Insurance,15354.85,Pending,2026-07-27,2027-07-27
+POL1950,Sarah Johnson,Global Insurance,19522.77,Pending,2026-02-05,2027-02-05
+POL1951,Olivia Martin,Global Insurance,24265.75,Terminated,2026-10-26,2027-10-26
+POL1952,Emma Garcia,XYZ Insurance,14095.18,Terminated,2026-04-26,2027-04-26
+POL1953,John Smith,Global Insurance,8500.7,Pending,2026-10-22,2027-10-22
+POL1954,Daniel Thomas,ABC Insurance,15063.38,Terminated,2026-02-24,2027-02-24
+POL1955,Daniel Thomas,Global Insurance,22522.26,Pending,2026-03-01,2027-03-01
+POL1956,Sophia Taylor,National Insurance,16263.37,In Force,2026-05-09,2027-05-09
+POL1957,Sophia Taylor,National Insurance,22930.48,In Force,2026-06-23,2027-06-23
+POL1958,Sarah Johnson,Global Insurance,6851.09,Pending,2026-09-04,2027-09-04
+POL1959,Emily Davis,Global Insurance,13248.52,Terminated,2026-04-23,2027-04-23
+POL1960,Daniel Thomas,ABC Insurance,19016.37,Terminated,2026-09-22,2027-09-22
+POL1961,David Wilson,ABC Insurance,12978.61,Pending,2026-05-08,2027-05-08
+POL1962,Sarah Johnson,XYZ Insurance,14531.11,Terminated,2026-06-25,2027-06-25
+POL1963,Emma Garcia,Global Insurance,8655.69,Pending,2026-04-22,2027-04-22
+POL1964,Sophia Taylor,XYZ Insurance,9697.23,In Force,2026-04-08,2027-04-08
+POL1965,Emily Davis,XYZ Insurance,9055.33,In Force,2026-05-16,2027-05-16
+POL1966,Michael Brown,ABC Insurance,7397.57,In Force,2026-07-02,2027-07-02
+POL1967,Emma Garcia,ABC Insurance,20284.88,Pending,2026-09-10,2027-09-10
+POL1968,Sophia Taylor,Global Insurance,17413.35,Terminated,2026-01-22,2027-01-22
+POL1969,David Wilson,National Insurance,8657.44,Pending,2026-10-22,2027-10-22
+POL1970,James Anderson,XYZ Insurance,20503.39,In Force,2026-05-24,2027-05-24
+POL1971,Daniel Thomas,National Insurance,14566.4,Pending,2026-01-28,2027-01-28
+POL1972,Daniel Thomas,Global Insurance,13374.34,Pending,2026-01-17,2027-01-17
+POL1973,Sophia Taylor,ABC Insurance,19464.89,Terminated,2026-03-31,2027-03-31
+POL1974,John Smith,ABC Insurance,18482.06,Terminated,2026-06-11,2027-06-11
+POL1975,Sarah Johnson,Global Insurance,12232.05,Terminated,2026-10-25,2027-10-25
+POL1976,Daniel Thomas,Global Insurance,9742.78,Terminated,2026-04-06,2027-04-06
+POL1977,Olivia Martin,XYZ Insurance,14975.4,In Force,2026-06-25,2027-06-25
+POL1978,Olivia Martin,Global Insurance,22586.52,Terminated,2026-08-03,2027-08-03
+POL1979,Michael Brown,XYZ Insurance,24585.45,Pending,2026-08-19,2027-08-19
+POL1980,Sarah Johnson,Global Insurance,21081.75,Pending,2026-04-28,2027-04-28
+POL1981,James Anderson,XYZ Insurance,7916.87,Pending,2026-08-10,2027-08-10
+POL1982,Sophia Taylor,ABC Insurance,8532.15,Terminated,2026-03-18,2027-03-18
+POL1983,Daniel Thomas,Global Insurance,20706.66,Terminated,2026-03-10,2027-03-10
+POL1984,Daniel Thomas,ABC Insurance,12968.04,Pending,2026-05-09,2027-05-09
+POL1985,John Smith,XYZ Insurance,21276.36,Terminated,2026-03-25,2027-03-25
+POL1986,Sophia Taylor,Global Insurance,10195.38,Terminated,2026-02-19,2027-02-19
+POL1987,Daniel Thomas,Global Insurance,11882.81,Terminated,2026-10-14,2027-10-14
+POL1988,Olivia Martin,XYZ Insurance,16537.08,Pending,2026-03-04,2027-03-04
+POL1989,Michael Brown,Global Insurance,12102.18,Pending,2026-10-03,2027-10-03
+POL1990,Sophia Taylor,National Insurance,22792.65,Terminated,2026-09-19,2027-09-19
+POL1991,Sophia Taylor,XYZ Insurance,22365.15,Pending,2026-05-27,2027-05-27
+POL1992,James Anderson,National Insurance,21978.02,In Force,2026-06-22,2027-06-22
+POL1993,Michael Brown,Global Insurance,9564.36,Terminated,2026-02-10,2027-02-10
+POL1994,David Wilson,National Insurance,10424.96,Terminated,2026-05-30,2027-05-30
+POL1995,Emma Garcia,National Insurance,13279.78,In Force,2026-07-05,2027-07-05
+POL1996,Michael Brown,XYZ Insurance,18240.45,Pending,2026-01-12,2027-01-12
+POL1997,Emily Davis,XYZ Insurance,12940.91,In Force,2026-02-10,2027-02-10
+POL1998,Sophia Taylor,ABC Insurance,5527.3,Terminated,2026-02-02,2027-02-02
+POL1999,Sarah Johnson,ABC Insurance,10249.05,In Force,2026-09-26,2027-09-26
+POL2000,James Anderson,Global Insurance,9587.12,Pending,2026-02-13,2027-02-13
+POL1633,James Anderson,ABC Insurance,22539.82,Terminated,2026-01-24,2027-01-24
+POL1464,Emily Davis,National Insurance,11010.02,In Force,2026-09-24,2027-09-24
+POL1279,,ABC Insurance,13415.33,Terminated,2026-07-25,2027-07-25
+POL1718,Michael Brown,Global Insurance,11394.99,Pending,2026-04-14,2027-04-14
+POL1638,Emily Davis,Global Insurance,17718.84,Pending,2026-01-13,2027-01-13
+POL1504,Daniel Thomas,ABC Insurance,9087.09,Terminated,2026-05-24,2027-05-24
+POL1193,,National Insurance,5306.95,In Force,2026-02-21,2027-02-21
+POL1329,Sarah Johnson,Global Insurance,9822.52,Pending,2026-07-02,2027-07-02
+POL1020,Sophia Taylor,XYZ Insurance,10297.6,In Force,2026-07-22,2027-07-22
+POL1156,Emma Garcia,ABC Insurance,23951.8,In Force,2026-01-31,2027-01-31
+POL1051,John Smith,National Insurance,10304.06,Terminated,2026-07-14,2027-07-14
+POL1993,Michael Brown,Global Insurance,9564.36,Terminated,2026-02-10,2027-02-10
+POL1548,Emily Davis,XYZ Insurance,16538.21,Terminated,2026-03-26,2027-03-26
+POL1023,Sophia Taylor,ABC Insurance,20115.64,In Force,2026-09-18,2027-09-18
+POL1191,Michael Brown,National Insurance,24296.49,In Force,2026-07-17,2027-07-17
+POL1996,Michael Brown,XYZ Insurance,18240.45,Pending,2026-01-12,2027-01-12
+POL1105,Sarah Johnson,Global Insurance,9689.87,Terminated,2026-08-14,2027-08-14
+POL1289,Sarah Johnson,ABC Insurance,17300.17,Pending,2026-05-27,2027-05-27
+POL1276,,ABC Insurance,13100.65,Terminated,2026-08-02,2027-08-02
+POL1129,Sarah Johnson,National Insurance,24215.75,Pending,2026-09-08,2027-09-08
+POL1733,Daniel Thomas,ABC Insurance,8974.75,In Force,2026-03-11,2027-03-11
+POL1449,Olivia Martin,ABC Insurance,15823.27,In Force,2026-08-05,2027-08-05
+POL1745,Emily Davis,National Insurance,11042.9,Pending,2026-05-10,2027-05-10
+POL1009,Daniel Thomas,ABC Insurance,24962.32,Terminated,2026-08-24,2027-08-24
+POL1239,John Smith,XYZ Insurance,10307.35,In Force,2026-06-15,2027-06-15
+POL1093,Sophia Taylor,XYZ Insurance,18177.01,Terminated,2026-09-19,2027-09-19
+POL1155,Emma Garcia,National Insurance,11107.6,Pending,2026-06-02,2027-06-02
+POL1016,Sophia Taylor,National Insurance,10398.96,Pending,2026-03-25,2027-03-25
+POL1506,Sarah Johnson,Global Insurance,8249.01,In Force,2026-07-23,2027-07-23
+POL1223,Emma Garcia,XYZ Insurance,17953.05,Pending,2026-06-17,2027-06-17
+POL1351,Emily Davis,ABC Insurance,5518.27,In Force,2026-05-23,2027-05-23
+POL1431,Michael Brown,National Insurance,21539.8,Pending,2026-04-09,2027-04-09
+POL1320,David Wilson,XYZ Insurance,21699.26,Pending,2026-01-10,2027-01-10
+POL1805,Daniel Thomas,ABC Insurance,13656.96,Pending,2026-06-23,2027-06-23
+POL1819,Olivia Martin,Global Insurance,21597.68,Terminated,2026-01-02,2027-01-02
+POL1511,Emily Davis,Global Insurance,16060.75,Terminated,2026-09-09,2027-09-09
+POL1381,David Wilson,National Insurance,22283.28,Terminated,2026-01-26,2027-01-26
+POL1475,Emily Davis,National Insurance,9177.78,Terminated,2026-10-14,2027-10-14
+POL1714,David Wilson,ABC Insurance,12896.09,Pending,2026-09-01,2027-09-01
+POL1811,Emily Davis,ABC Insurance,14181.89,Pending,2026-07-26,2027-07-26
+POL1033,Sophia Taylor,ABC Insurance,24559.69,Pending,2026-02-13,2027-02-13
+POL1339,Olivia Martin,Global Insurance,21022.96,Pending,2026-09-12,2027-09-12
+POL1083,Emma Garcia,Global Insurance,5765.14,Pending,2026-04-02,2027-04-02
+POL1864,James Anderson,ABC Insurance,9111.59,Pending,2026-04-20,2027-04-20
+POL1769,Sophia Taylor,National Insurance,5093.38,Pending,2026-08-08,2027-08-08
+POL1975,Sarah Johnson,Global Insurance,12232.05,Terminated,2026-10-25,2027-10-25
+POL1150,Michael Brown,ABC Insurance,10049.57,Terminated,2026-06-24,2027-06-24
+POL1058,Emma Garcia,Global Insurance,23694.13,In Force,2026-10-26,2027-10-26
+POL1273,Daniel Thomas,Global Insurance,6441.51,Pending,2026-04-28,2027-04-28
+POL1795,Michael Brown,XYZ Insurance,11573.22,Terminated,2026-01-05,2027-01-05
+POL2001,Isabella Lewis,ABC Insurance,15863.84,In Force,2026-03-01,2027-03-01
+POL2002,William Clark,ABC Insurance,22913.98,In Force,2026-03-01,2027-03-01
+POL2003,Isabella Lewis,XYZ Insurance,21565.04,In Force,2026-03-01,2027-03-01
+POL2004,William Clark,ABC Insurance,12695.96,In Force,2026-03-01,2027-03-01
+POL2005,Isabella Lewis,ABC Insurance,19752.38,In Force,2026-03-01,2027-03-01
+POL2006,William Clark,ABC Insurance,14216.69,In Force,2026-03-01,2027-03-01
+POL2007,William Clark,ABC Insurance,14456.51,In Force,2026-03-01,2027-03-01
+POL2008,Ethan Walker,XYZ Insurance,23724.3,In Force,2026-03-01,2027-03-01
+POL2009,William Clark,ABC Insurance,19894.49,In Force,2026-03-01,2027-03-01
+POL2010,Ethan Walker,ABC Insurance,10066.25,In Force,2026-03-01,2027-03-01
+POL2011,Ethan Walker,XYZ Insurance,8974.47,In Force,2026-03-01,2027-03-01
+POL2012,William Clark,ABC Insurance,24465.48,In Force,2026-03-01,2027-03-01
+POL2013,William Clark,XYZ Insurance,11490.27,In Force,2026-03-01,2027-03-01
+POL2014,William Clark,XYZ Insurance,16693.94,In Force,2026-03-01,2027-03-01
+POL2015,Isabella Lewis,ABC Insurance,5178.6,In Force,2026-03-01,2027-03-01
+POL2016,William Clark,XYZ Insurance,18768.13,In Force,2026-03-01,2027-03-01
+POL2017,William Clark,XYZ Insurance,20415.94,In Force,2026-03-01,2027-03-01
+POL2018,William Clark,ABC Insurance,14998.38,In Force,2026-03-01,2027-03-01
+POL2019,Ethan Walker,XYZ Insurance,23616.98,In Force,2026-03-01,2027-03-01
+POL2020,Ethan Walker,ABC Insurance,6195.5,In Force,2026-03-01,2027-03-01
+POL2021,Ethan Walker,ABC Insurance,19026.56,In Force,2026-03-01,2027-03-01
+POL2022,William Clark,ABC Insurance,14756.86,In Force,2026-03-01,2027-03-01
+POL2023,Isabella Lewis,XYZ Insurance,21110.51,In Force,2026-03-01,2027-03-01
+POL2024,Isabella Lewis,ABC Insurance,5427.06,In Force,2026-03-01,2027-03-01
+POL2025,Isabella Lewis,XYZ Insurance,19487.98,In Force,2026-03-01,2027-03-01
+POL2026,Isabella Lewis,ABC Insurance,14706.04,In Force,2026-03-01,2027-03-01
+POL2027,Isabella Lewis,XYZ Insurance,15854.68,In Force,2026-03-01,2027-03-01
+POL2028,Isabella Lewis,ABC Insurance,16334.03,In Force,2026-03-01,2027-03-01
+POL2029,Ethan Walker,XYZ Insurance,11473.62,In Force,2026-03-01,2027-03-01
+POL2030,Isabella Lewis,XYZ Insurance,22353.24,In Force,2026-03-01,2027-03-01
+POL2031,Ethan Walker,ABC Insurance,6377.53,In Force,2026-03-01,2027-03-01
+POL2032,William Clark,XYZ Insurance,10913.45,In Force,2026-03-01,2027-03-01
+POL2033,Isabella Lewis,XYZ Insurance,14081.58,In Force,2026-03-01,2027-03-01
+POL2034,Ethan Walker,XYZ Insurance,19673.15,In Force,2026-03-01,2027-03-01
+POL2035,William Clark,XYZ Insurance,20520.33,In Force,2026-03-01,2027-03-01
+POL2036,William Clark,XYZ Insurance,19420.07,In Force,2026-03-01,2027-03-01
+POL2037,Ethan Walker,XYZ Insurance,8797.39,In Force,2026-03-01,2027-03-01
+POL2038,Ethan Walker,XYZ Insurance,20314.68,In Force,2026-03-01,2027-03-01
+POL2039,William Clark,XYZ Insurance,11452.0,In Force,2026-03-01,2027-03-01
+POL2040,Ethan Walker,XYZ Insurance,7209.28,In Force,2026-03-01,2027-03-01
+POL2041,Ethan Walker,ABC Insurance,5875.55,In Force,2026-03-01,2027-03-01
+POL2042,William Clark,ABC Insurance,22469.86,In Force,2026-03-01,2027-03-01
+POL2043,William Clark,ABC Insurance,14707.41,In Force,2026-03-01,2027-03-01
+POL2044,William Clark,ABC Insurance,16420.24,In Force,2026-03-01,2027-03-01
+POL2045,Isabella Lewis,XYZ Insurance,15516.43,In Force,2026-03-01,2027-03-01
+POL2046,Ethan Walker,XYZ Insurance,5981.71,In Force,2026-03-01,2027-03-01
+POL2047,William Clark,ABC Insurance,5261.72,In Force,2026-03-01,2027-03-01
+POL2048,William Clark,XYZ Insurance,23568.07,In Force,2026-03-01,2027-03-01
+POL2049,William Clark,XYZ Insurance,21020.4,In Force,2026-03-01,2027-03-01
+POL2050,William Clark,XYZ Insurance,16160.4,In Force,2026-03-01,2027-03-01

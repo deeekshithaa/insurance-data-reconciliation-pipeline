@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.py[cod]
+.env
+.pytest_cache/
+.vscode/
+.DS_Store
+
+data/processed/*
+data/exceptions/*
+!data/processed/.gitkeep
+!data/exceptions/.gitkeep
+data/bronze/*
