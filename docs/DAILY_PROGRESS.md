@@ -22,5 +22,19 @@ I also initialized Git locally. Still need to connect everything to GitHub and m
 
 **Little wins today:** My synthetic data works, my first ingestion pipeline is running, and all three tests are passing. Not bad at all! 💗
 
-**Next up:** Connect GitHub, make my first commit, and move on to the Silver layer!
+### Silver Layer: Data Quality Checks ✨
 
+Today I added a data quality check module to my Silver layer. I wanted the pipeline to not only standardize the data, but also tell me whether the data looks healthy or if something needs attention.
+
+I built checks for missing required columns, missing policy IDs, duplicate policy IDs, missing customer names and missing premiums. I also combined these checks into one quality report that gives the dataset a status of PASS, WARNING or FAILED.
+
+I updated the report to return regular Python integers and added tests for the new functionality. I had a small hiccup updating my test expectations when I changed the report structure, but I fixed it and got everything passing again.
+
+Finally, I ran the checks against the actual Silver data:
+
+- Agency A: 1,000 records, no issues detected by our current checks.
+- Agency B: 1,100 records, 50 duplicate policy ID occurrences and 33 missing customer names. The report returned WARNING.
+
+All 25 tests are passing now! I'm happy that the pipeline is starting to detect the data problems we intentionally created, instead of just moving data from one layer to another.
+
+Next up: building the reconciliation logic to compare the two agencies' records.

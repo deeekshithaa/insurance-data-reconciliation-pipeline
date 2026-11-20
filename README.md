@@ -33,6 +33,9 @@ insurance-data-reconciliation-pipeline/
 │   ├── bronze/
 │   │   ├── agency_a/
 │   │   └── agency_b/
+│   ├── silver/
+│   │   ├── agency_a/
+│   │   └── agency_b/
 │   ├── processed/
 │   └── exceptions/
 │
@@ -76,6 +79,7 @@ I also checked that the data generator produces the same output when run again u
 Built a Python ingestion script that reads both agency CSV files and saves them in Parquet format.
 
 Added metadata to track:
+
 - Source system
 - Original filename
 - Ingestion timestamp
@@ -84,19 +88,66 @@ Added metadata to track:
 I also implemented file hashing to prevent unchanged files from being ingested repeatedly.
 
 **Validation results:**
+
 - Agency A: 1,000 rows
 - Agency B: 1,100 rows
 - Both datasets contain 11 columns after adding metadata.
 - Original missing values and duplicate records are preserved.
 
-### 3. Automated Testing
+### 3. Silver Layer Transformations
 
-Created tests for:
+Built a Silver transformation pipeline to standardize insurance data from both agencies.
+
+Implemented transformations for:
+
+- Standardizing policy IDs into a consistent format.
+- Normalizing insurance status values, such as `In Force` to `Active`.
+
+The transformations preserve the original DataFrame and other data columns.
+
+Silver data is saved as Parquet files under the respective agency directories.
+
+### 4. Silver Data Quality Checks
+
+Built a data quality module to validate the standardized Silver datasets.
+
+Implemented checks for:
+
+- Missing required columns
+- Missing policy IDs
+- Duplicate policy IDs
+- Missing customer names
+- Missing premium values
+
+The quality report assigns a status to each dataset:
+
+- **PASS:** No issues detected by the implemented checks.
+- **WARNING:** One or more data quality issues detected.
+- **FAILED:** Required columns are missing.
+
+**Current validation results:**
+
+| Source | Records | Duplicate Policy IDs | Missing Customer Names | Quality Status |
+|---|---:|---:|---:|---|
+| Agency A | 1,000 | 0 | 0 | PASS |
+| Agency B | 1,100 | 50 | 33 | WARNING |
+
+These checks identify data issues without automatically removing or modifying records.
+
+### 5. Automated Testing
+
+Created automated tests using Pytest for:
+
 - Successful CSV-to-Parquet ingestion
 - Preventing duplicate ingestion
 - Creating a new batch when the source file changes
+- Policy ID standardization
+- Status normalization
+- DataFrame preservation
+- Silver data quality checks
+- Quality report generation and validation
 
-All three tests passed! 💗
+**Current test results: 25 tests passed.**
 
 ## 🗺️ What's Next?
 
@@ -104,11 +155,11 @@ All three tests passed! 💗
 - [x] Build Bronze ingestion
 - [x] Validate Bronze Parquet files
 - [x] Test Bronze ingestion
-- [ ] Set up GitHub repository
-- [ ] Build Silver layer transformations
-- [ ] Standardize policy IDs and statuses
-- [ ] Add data quality checks
+- [x] Set up GitHub repository
+- [x] Build Silver layer transformations
+- [x] Standardize policy IDs and statuses
+- [x] Add data quality checks
 - [ ] Build cross-agency reconciliation
 - [ ] Handle exceptions
 - [ ] Build reporting tables
-
+```
