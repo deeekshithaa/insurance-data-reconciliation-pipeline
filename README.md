@@ -134,9 +134,46 @@ The quality report assigns a status to each dataset:
 
 These checks identify data issues without automatically removing or modifying records.
 
-### 5. Automated Testing
+### 5. Insurance Data Reconciliation
 
-Created automated tests using Pytest for:
+Built a reconciliation engine to compare standardized insurance policy records between Agency A and Agency B.
+
+Implemented:
+
+- Removal of exact duplicate records before reconciliation.
+- Detection of repeated policy IDs requiring investigation.
+- Full outer join between the two agency datasets using standardized policy IDs.
+- Field-level comparisons across customer name, carrier, premium, status, effective date, and expiration date.
+- Classification of discrepancies by affected fields.
+- Export of exception records to CSV and Parquet formats.
+
+**Reconciliation results:**
+
+| Metric | Result |
+|---|---:|
+| Agency A records | 1,000 |
+| Agency B records after exact duplicate removal | 1,050 |
+| Matched policies | 1,000 |
+| Unmatched Agency B policies | 50 |
+| Premium discrepancies | 100 |
+| Customer name discrepancies | 30 |
+| Unique exception records | 127 |
+| Conflicting records requiring investigation | 0 |
+
+Three policies had both premium and customer name discrepancies, resulting in 127 unique exception records.
+
+The exception outputs are saved as:
+
+- `data/exceptions/reconciliation_exceptions.csv`
+- `data/exceptions/reconciliation_exceptions.parquet`
+
+The 50 unmatched Agency B policies are identified separately from field-level exceptions and will be handled in a later stage.
+
+### 6. Automated Testing
+
+Created automated tests using Pytest to validate the different modules of the pipeline.
+
+Tests cover:
 
 - Successful CSV-to-Parquet ingestion
 - Preventing duplicate ingestion
@@ -146,8 +183,14 @@ Created automated tests using Pytest for:
 - DataFrame preservation
 - Silver data quality checks
 - Quality report generation and validation
+- Duplicate preparation for reconciliation
+- Cross-agency matching
+- Field-level comparisons
+- Discrepancy classification
+- Reconciliation runner execution
+- Exception file generation
 
-**Current test results: 25 tests passed.**
+**Current test results: 30 tests passed.**
 
 ## 🗺️ What's Next?
 
@@ -159,7 +202,12 @@ Created automated tests using Pytest for:
 - [x] Build Silver layer transformations
 - [x] Standardize policy IDs and statuses
 - [x] Add data quality checks
-- [ ] Build cross-agency reconciliation
-- [ ] Handle exceptions
+- [x] Build cross-agency reconciliation
+- [x] Identify and classify field-level discrepancies
+- [x] Export reconciliation exceptions
+- [x] Test reconciliation runner
+- [ ] Investigate and handle unmatched policies
+- [ ] Develop an exception management workflow
 - [ ] Build reporting tables
-```
+- [ ] Integrate a database or data warehouse
+- [ ] Orchestrate the pipeline using Airflow

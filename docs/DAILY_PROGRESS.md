@@ -38,3 +38,26 @@ Finally, I ran the checks against the actual Silver data:
 All 25 tests are passing now! I'm happy that the pipeline is starting to detect the data problems we intentionally created, instead of just moving data from one layer to another.
 
 Next up: building the reconciliation logic to compare the two agencies' records.
+
+### Module 5: Insurance Data Reconciliation
+
+- Implemented duplicate removal and repeated policy ID conflict detection.
+- Implemented full outer join between Agency A and Agency B using standardized policy IDs.
+- Implemented field-level comparisons for customer name, carrier, premium, status, effective date, and expiration date.
+- Implemented discrepancy classification to identify affected policies and discrepancy types.
+- Created a reusable reconciliation runner.
+- Generated exception outputs in CSV and Parquet formats.
+- Verified 1,000 matched policies.
+- Identified 127 unique exception records.
+- Detected 100 premium discrepancies and 30 customer name discrepancies, with 3 policies overlapping both categories.
+- Verified zero conflicts in the prepared datasets.
+- Verified CSV and Parquet outputs contain 127 rows and 30 columns.
+- Full project test suite: 29 tests passed.
+
+**Artifacts created:**
+- `src/reconciliation/reconciliation_engine.py`
+- `src/reconciliation/run_reconciliation.py`
+- `tests/test_reconciliation_engine.py`
+- `data/exceptions/reconciliation_exceptions.csv`
+- `data/exceptions/reconciliation_exceptions.parquet`
+
