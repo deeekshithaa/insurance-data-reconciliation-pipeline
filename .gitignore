@@ -11,3 +11,4 @@ data/exceptions/*
 !data/processed/.gitkeep
 !data/exceptions/.gitkeep
 data/bronze/*
+data/silver/
