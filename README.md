@@ -211,3 +211,8 @@ Tests cover:
 - [ ] Build reporting tables
 - [ ] Integrate a database or data warehouse
 - [ ] Orchestrate the pipeline using Airflow
+
+
+## Databricks Reconciliation Dashboard
+
+![Insurance Reconciliation Dashboard](docs/images/databricks_reconciliation_dashboard.png)
