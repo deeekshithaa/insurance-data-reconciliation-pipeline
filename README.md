@@ -19,6 +19,7 @@ I'm building this step by step, starting with synthetic data generation and movi
 - Parquet
 - Pytest
 - Git and GitHub
+- Databricks
 
 ## Project Structure
 
@@ -44,11 +45,15 @@ insurance-data-reconciliation-pipeline/
 │   ├── transformations/
 │   ├── reconciliation/
 │   ├── quality/
+│   ├── exceptions/
+│   ├── reporting/
+│   ├── marts/
 │   └── warehouse/
 │
 ├── tests/
 ├── docs/
-│   └── DAILY_PROGRESS.md
+│   ├── DAILY_PROGRESS.md
+│   └── images/
 │
 ├── generate_synthetic_data.py
 ├── requirements.txt
@@ -169,7 +174,100 @@ The exception outputs are saved as:
 
 The 50 unmatched Agency B policies are identified separately from field-level exceptions and will be handled in a later stage.
 
-### 6. Automated Testing
+### 6. Exception Management
+
+Built an exception management workflow to turn reconciliation discrepancies into trackable records for review and resolution.
+
+Implemented:
+
+- Generation of unique exception IDs.
+- Assignment of exception priorities.
+- Tracking exception review statuses.
+- Reviewer assignment.
+- Resolution notes.
+- Resolution timestamps.
+- Updating exception records through a workflow.
+
+The exception management dataset tracks field-level discrepancies separately from unmatched policies.
+
+**Exception workflow:**
+
+Exceptions can progress through the following statuses:
+
+- Open
+- In Review
+- Resolved
+
+The workflow supports assigning reviewers, recording resolution notes, and tracking when exceptions are resolved.
+
+The exception management dataset is saved under `data/exceptions/`.
+
+### 7. Exception Reporting
+
+Built a reporting module to summarize exception records and monitor the exception resolution process.
+
+Reporting metrics include:
+
+- Total field-level exceptions.
+- Open exceptions.
+- Exceptions under review.
+- Resolved exceptions.
+- Unresolved exceptions.
+- Exception priority distribution.
+- Resolution rate.
+
+**Current exception report:**
+
+| Metric | Result |
+|---|---:|
+| Total field exceptions | 127 |
+| Open exceptions | 126 |
+| In Review | 0 |
+| Resolved exceptions | 1 |
+| Unresolved exceptions | 126 |
+| High priority | 100 |
+| Medium priority | 27 |
+| Low priority | 0 |
+| Resolution rate | 0.79% |
+
+The exception summary is saved as:
+
+- `data/exceptions/exception_summary.csv`
+
+### 8. Fact Policy Analytics Layer
+
+Built a Fact Policy dataset that consolidates reconciled insurance policy records from Agency A and Agency B into a unified analytical dataset.
+
+Implemented:
+
+- Consolidation of both agency datasets using a full outer join.
+- Identification of matched and unmatched policies.
+- Field-level discrepancy indicators.
+- Premium mismatch flags.
+- Customer name mismatch flags, including missing values for matched policies.
+- Premium difference calculation between agencies.
+- Export of the analytical dataset to CSV and Parquet formats.
+
+**Fact Policy dataset results:**
+
+| Metric | Result |
+|---|---:|
+| Total policy records | 1,050 |
+| Matched policies | 1,000 |
+| Missing from Agency A | 50 |
+| Missing from Agency B | 0 |
+| Field discrepancy records | 127 |
+| Premium mismatches | 100 |
+| Customer name mismatch flags | 80 |
+
+The Fact Policy dataset is saved as:
+
+- `data/processed/fact_policy.csv`
+- `data/processed/fact_policy.parquet`
+
+The dataset provides a foundation for downstream analytics, insurance reconciliation reporting, exception monitoring, and future data warehouse integration.
+
+### 9. Automated Testing
 
 Created automated tests using Pytest to validate the different modules of the pipeline.
 
@@ -188,9 +286,33 @@ Tests cover:
 - Field-level comparisons
 - Discrepancy classification
 - Reconciliation runner execution
-- Exception file generation
+- Exception management dataset generation
+- Exception reporting summary generation
+- Fact Policy dataset generation and mismatch flag validation
 
-**Current test results: 30 tests passed.**
+**Current test results: 33 tests passed.**
+
+The full test suite was executed using:
+
+```bash
+python -m pytest -v
+```
+
+### Databricks Reconciliation Dashboard
+
+I also explored the reconciliation workflow using Databricks Free Edition.
+
+Loaded and standardized the agency datasets in Databricks, performed cross-agency reconciliation, and created analytical tables to support dashboard reporting.
+
+The Databricks reconciliation dashboard visualizes key metrics, including:
+
+- Total exceptions
+- Matched policies
+- Unmatched policies
+- Premium discrepancies
+- Customer name discrepancies
+
+![Insurance Reconciliation Dashboard](docs/images/databricks_reconciliation_dashboard.png)
 
 ## 🗺️ What's Next?
 
@@ -206,13 +328,15 @@ Tests cover:
 - [x] Identify and classify field-level discrepancies
 - [x] Export reconciliation exceptions
 - [x] Test reconciliation runner
+- [x] Build exception management workflow
+- [x] Build exception reporting
+- [x] Build Fact Policy analytics dataset
+- [x] Add automated tests for Fact Policy
+- [x] Validate full test suite
+- [x] Explore Databricks reconciliation
+- [x] Build Databricks reconciliation dashboard
 - [ ] Investigate and handle unmatched policies
-- [ ] Develop an exception management workflow
-- [ ] Build reporting tables
 - [ ] Integrate a database or data warehouse
+- [ ] Develop SQL analytics and reporting
 - [ ] Orchestrate the pipeline using Airflow
-
-
-## Databricks Reconciliation Dashboard
-
-![Insurance Reconciliation Dashboard](docs/images/databricks_reconciliation_dashboard.png)
+- [ ] Expand the pipeline with additional data sources
