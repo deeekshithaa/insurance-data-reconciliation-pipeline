@@ -2,13 +2,13 @@
 
 ## About the Project 🌷
 
-I'm building this project to explore how data engineers handle messy data coming from different sources.
+I'm building this project to explore how data engineers work with messy data coming from different sources and turn it into something reliable and useful.
 
-The idea is to simulate two insurance agencies sending policy data that doesn't always match. One agency might have a different policy ID format, a different premium amount, missing customer information, or even duplicate records.
+The idea is to simulate two insurance agencies sending policy data that doesn't always match. One agency might have a different policy ID format, a different premium amount, missing customer information, duplicate records, or inconsistent policy statuses.
 
-I want to build a pipeline that can identify these differences, clean up the data, and eventually bring everything together into a reliable dataset.
+I wanted to build a project that goes beyond simply cleaning data. The goal is to create a pipeline that can ingest data, standardize it, check its quality, compare records between agencies, identify discrepancies, track exceptions, and eventually make the data available for analysis.
 
-I'm building this step by step, starting with synthetic data generation and moving through the different stages of a data pipeline.
+I'm building it step by step, starting with synthetic data generation and gradually adding different parts of the data pipeline.
 
 ## Tech Stack
 
@@ -17,6 +17,9 @@ I'm building this step by step, starting with synthetic data generation and movi
 - NumPy
 - PyArrow
 - Parquet
+- PostgreSQL
+- SQL
+- SQLAlchemy
 - Pytest
 - Git and GitHub
 - Databricks
@@ -50,6 +53,7 @@ insurance-data-reconciliation-pipeline/
 │   ├── marts/
 │   └── warehouse/
 │
+├── sql/
 ├── tests/
 ├── docs/
 │   ├── DAILY_PROGRESS.md
@@ -64,59 +68,61 @@ insurance-data-reconciliation-pipeline/
 
 ### 1. Synthetic Data Generation
 
-Created two synthetic insurance datasets:
+I created two synthetic insurance datasets to simulate data coming from different agencies.
 
 - Agency A: 1,000 records
 - Agency B: 1,100 records
 
-I intentionally introduced some data issues into Agency B:
+I intentionally introduced some data issues into Agency B to make the reconciliation process more realistic:
 
 - 100 premium mismatches
 - 50 duplicate records
 - 30 unique policies with missing customer names
 - 50 unmatched policies
-- Inconsistent policy ID formats and status values
+- Inconsistent policy ID formats
+- Inconsistent policy status values
 
-I also checked that the data generator produces the same output when run again using a fixed random seed.
+I also made the data generator reproducible using a fixed random seed, so I can generate the same data again when needed.
 
 ### 2. Bronze Layer Ingestion
 
-Built a Python ingestion script that reads both agency CSV files and saves them in Parquet format.
+I built a Python ingestion script that reads the agency CSV files and stores them in Parquet format.
 
-Added metadata to track:
+Along with the data, I added metadata to track:
 
 - Source system
 - Original filename
 - Ingestion timestamp
 - Ingestion batch ID
 
-I also implemented file hashing to prevent unchanged files from being ingested repeatedly.
+I also implemented file hashing to avoid re-ingesting files that haven't changed.
 
 **Validation results:**
 
-- Agency A: 1,000 rows
-- Agency B: 1,100 rows
-- Both datasets contain 11 columns after adding metadata.
-- Original missing values and duplicate records are preserved.
+| Source | Records |
+|---|---:|
+| Agency A | 1,000 |
+| Agency B | 1,100 |
+
+Both datasets contain 11 columns after adding ingestion metadata. The original missing values and duplicate records are preserved in the Bronze layer so they can be handled in later stages.
 
 ### 3. Silver Layer Transformations
 
-Built a Silver transformation pipeline to standardize insurance data from both agencies.
+I built a Silver transformation pipeline to standardize the data from both agencies.
 
-Implemented transformations for:
+The transformations include:
 
 - Standardizing policy IDs into a consistent format.
 - Normalizing insurance status values, such as `In Force` to `Active`.
+- Preserving the original DataFrames and other data columns.
 
-The transformations preserve the original DataFrame and other data columns.
-
-Silver data is saved as Parquet files under the respective agency directories.
+The standardized datasets are saved as Parquet files under their respective agency directories.
 
 ### 4. Silver Data Quality Checks
 
-Built a data quality module to validate the standardized Silver datasets.
+I added a data quality module to check the standardized Silver datasets before reconciliation.
 
-Implemented checks for:
+The checks cover:
 
 - Missing required columns
 - Missing policy IDs
@@ -127,7 +133,7 @@ Implemented checks for:
 The quality report assigns a status to each dataset:
 
 - **PASS:** No issues detected by the implemented checks.
-- **WARNING:** One or more data quality issues detected.
+- **WARNING:** One or more data quality issues were detected.
 - **FAILED:** Required columns are missing.
 
 **Current validation results:**
@@ -137,20 +143,20 @@ The quality report assigns a status to each dataset:
 | Agency A | 1,000 | 0 | 0 | PASS |
 | Agency B | 1,100 | 50 | 33 | WARNING |
 
-These checks identify data issues without automatically removing or modifying records.
+These checks help identify data issues without automatically removing or modifying records.
 
 ### 5. Insurance Data Reconciliation
 
-Built a reconciliation engine to compare standardized insurance policy records between Agency A and Agency B.
+I built a reconciliation engine to compare standardized insurance policy records between Agency A and Agency B.
 
-Implemented:
+The reconciliation process includes:
 
-- Removal of exact duplicate records before reconciliation.
-- Detection of repeated policy IDs requiring investigation.
-- Full outer join between the two agency datasets using standardized policy IDs.
-- Field-level comparisons across customer name, carrier, premium, status, effective date, and expiration date.
-- Classification of discrepancies by affected fields.
-- Export of exception records to CSV and Parquet formats.
+- Removing exact duplicate records before reconciliation.
+- Identifying repeated policy IDs that require investigation.
+- Performing a full outer join using standardized policy IDs.
+- Comparing customer names, carriers, premiums, statuses, effective dates, and expiration dates.
+- Classifying discrepancies based on the affected fields.
+- Exporting exception records to CSV and Parquet formats.
 
 **Reconciliation results:**
 
@@ -165,7 +171,7 @@ Implemented:
 | Unique exception records | 127 |
 | Conflicting records requiring investigation | 0 |
 
-Three policies had both premium and customer name discrepancies, resulting in 127 unique exception records.
+Three policies had both premium and customer name discrepancies, which resulted in 127 unique field-level exception records.
 
 The exception outputs are saved as:
 
@@ -176,21 +182,19 @@ The 50 unmatched Agency B policies are identified separately from field-level ex
 
 ### 6. Exception Management
 
-Built an exception management workflow to turn reconciliation discrepancies into trackable records for review and resolution.
+I built an exception management workflow to make reconciliation discrepancies easier to track and review.
 
-Implemented:
+Instead of just identifying differences and leaving them in a file, the workflow creates records that can be followed through the review and resolution process.
 
-- Generation of unique exception IDs.
-- Assignment of exception priorities.
-- Tracking exception review statuses.
-- Reviewer assignment.
-- Resolution notes.
-- Resolution timestamps.
-- Updating exception records through a workflow.
+It includes:
 
-The exception management dataset tracks field-level discrepancies separately from unmatched policies.
-
-**Exception workflow:**
+- Generating unique exception IDs.
+- Assigning exception priorities.
+- Tracking review statuses.
+- Assigning reviewers.
+- Recording resolution notes.
+- Tracking resolution timestamps.
+- Updating exceptions as they move through the workflow.
 
 Exceptions can progress through the following statuses:
 
@@ -204,9 +208,9 @@ The exception management dataset is saved under `data/exceptions/`.
 
 ### 7. Exception Reporting
 
-Built a reporting module to summarize exception records and monitor the exception resolution process.
+I built a reporting module to summarize exceptions and monitor their resolution progress.
 
-Reporting metrics include:
+The report tracks:
 
 - Total field-level exceptions.
 - Open exceptions.
@@ -236,16 +240,18 @@ The exception summary is saved as:
 
 ### 8. Fact Policy Analytics Layer
 
-Built a Fact Policy dataset that consolidates reconciled insurance policy records from Agency A and Agency B into a unified analytical dataset.
+I built a Fact Policy dataset that brings together reconciled insurance policy records from both agencies into a single analytical dataset.
 
-Implemented:
+The dataset makes it easier to analyze policy matching results and identify where discrepancies exist.
+
+It includes:
 
 - Consolidation of both agency datasets using a full outer join.
 - Identification of matched and unmatched policies.
 - Field-level discrepancy indicators.
 - Premium mismatch flags.
 - Customer name mismatch flags, including missing values for matched policies.
-- Premium difference calculation between agencies.
+- Premium difference calculations between agencies.
 - Export of the analytical dataset to CSV and Parquet formats.
 
 **Fact Policy dataset results:**
@@ -260,51 +266,55 @@ Implemented:
 | Premium mismatches | 100 |
 | Customer name mismatch flags | 80 |
 
+The customer name mismatch flag in the analytical dataset also captures missing-versus-present customer names, which is why it differs from the earlier reconciliation count of 30 name discrepancies.
+
 The Fact Policy dataset is saved as:
 
 - `data/processed/fact_policy.csv`
 - `data/processed/fact_policy.parquet`
 
-The dataset provides a foundation for downstream analytics, insurance reconciliation reporting, exception monitoring, and future data warehouse integration.
+This dataset provides a foundation for downstream analytics, reconciliation reporting, exception monitoring, and warehouse integration.
 
 ### 9. Automated Testing
 
-Created automated tests using Pytest to validate the different modules of the pipeline.
+I created automated tests using Pytest to validate the different modules of the pipeline.
 
-Tests cover:
+The tests cover:
 
-- Successful CSV-to-Parquet ingestion
-- Preventing duplicate ingestion
-- Creating a new batch when the source file changes
-- Policy ID standardization
-- Status normalization
-- DataFrame preservation
-- Silver data quality checks
-- Quality report generation and validation
-- Duplicate preparation for reconciliation
-- Cross-agency matching
-- Field-level comparisons
-- Discrepancy classification
-- Reconciliation runner execution
-- Exception management dataset generation
-- Exception reporting summary generation
-- Fact Policy dataset generation and mismatch flag validation
+- CSV-to-Parquet ingestion.
+- Preventing duplicate ingestion.
+- Creating a new batch when the source file changes.
+- Policy ID standardization.
+- Status normalization.
+- DataFrame preservation.
+- Silver data quality checks.
+- Quality report generation and validation.
+- Duplicate preparation for reconciliation.
+- Cross-agency matching.
+- Field-level comparisons.
+- Discrepancy classification.
+- Reconciliation runner execution.
+- Exception management dataset generation.
+- Exception reporting summary generation.
+- Fact Policy dataset generation and mismatch flag validation.
 
 **Current test results: 33 tests passed.**
 
-The full test suite was executed using:
+I run the full test suite using:
 
 ```bash
 python -m pytest -v
 ```
 
-### Databricks Reconciliation Dashboard
+### 10. Databricks Reconciliation Dashboard
 
 I also explored the reconciliation workflow using Databricks Free Edition.
 
-Loaded and standardized the agency datasets in Databricks, performed cross-agency reconciliation, and created analytical tables to support dashboard reporting.
+I loaded and standardized the agency datasets in Databricks, performed cross-agency reconciliation, and created analytical tables to support dashboard reporting.
 
-The Databricks reconciliation dashboard visualizes key metrics, including:
+I created tables for reconciliation results, exceptions, and summary metrics.
+
+The dashboard visualizes key metrics such as:
 
 - Total exceptions
 - Matched policies
@@ -313,6 +323,65 @@ The Databricks reconciliation dashboard visualizes key metrics, including:
 - Customer name discrepancies
 
 ![Insurance Reconciliation Dashboard](docs/images/databricks_reconciliation_dashboard.png)
+
+### 11. PostgreSQL Warehouse Integration
+
+I added PostgreSQL to the project to store the analytical data and work with it using SQL.
+
+I connected the Python pipeline to PostgreSQL using SQLAlchemy and loaded the Fact Policy dataset into a warehouse table.
+
+I also loaded the exception management dataset so I could query policy-level analytics alongside exception priority and review status.
+
+**Warehouse tables:**
+
+- `fact_policy`: Stores policy-level reconciliation results, matching status, discrepancy flags, and premium differences.
+- `exception_management`: Stores exception records, priorities, review statuses, and supporting reconciliation data.
+
+**Warehouse validation results:**
+
+| Metric | Result |
+|---|---:|
+| Total policy records | 1,050 |
+| Matched policies | 1,000 |
+| Missing from Agency A | 50 |
+| Missing from Agency B | 0 |
+| Premium mismatches | 100 |
+| Customer name mismatch flags | 80 |
+| Policies with discrepancies | 127 |
+
+### 12. SQL Analytics
+
+I started building reusable SQL queries to analyze the data stored in PostgreSQL.
+
+The queries cover:
+
+- Policy reconciliation KPIs.
+- Matched and unmatched policy counts.
+- Premium and customer name mismatch counts.
+- Total and average premium differences.
+- Exception backlog by priority and review status.
+- Exception resolution rates.
+- Joining policy analytics with exception management records.
+
+**Financial discrepancy analysis:**
+
+| Metric | Result |
+|---|---:|
+| Premium mismatch count | 100 |
+| Total premium difference | $50,000 |
+| Average premium difference | $500 |
+
+**Exception workflow analysis:**
+
+| Priority | Total Exceptions | Open | Resolved | Resolution Rate |
+|---|---:|---:|---:|---:|
+| High | 100 | 99 | 1 | 1.00% |
+| Medium | 27 | 27 | 0 | 0.00% |
+| Total | 127 | 126 | 1 | 0.79% |
+
+I also tested joining the Fact Policy and exception management tables using `policy_id` to connect analytical results with exception tracking information.
+
+My SQL scripts are saved under the `sql/` directory so they can be reused and version controlled.
 
 ## 🗺️ What's Next?
 
@@ -335,8 +404,9 @@ The Databricks reconciliation dashboard visualizes key metrics, including:
 - [x] Validate full test suite
 - [x] Explore Databricks reconciliation
 - [x] Build Databricks reconciliation dashboard
+- [x] Integrate PostgreSQL
+- [x] Load Fact Policy and exception datasets into PostgreSQL
+- [x] Build SQL analytics and reporting
 - [ ] Investigate and handle unmatched policies
-- [ ] Integrate a database or data warehouse
-- [ ] Develop SQL analytics and reporting
 - [ ] Orchestrate the pipeline using Airflow
 - [ ] Expand the pipeline with additional data sources
