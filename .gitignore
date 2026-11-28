@@ -12,3 +12,8 @@ data/exceptions/*
 !data/exceptions/.gitkeep
 data/bronze/*
 data/silver/
+
+# Airflow runtime files
+airflow/logs/
+airflow/config/
+airflow/plugins/
