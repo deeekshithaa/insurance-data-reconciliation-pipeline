@@ -10,53 +10,74 @@ from src.reconciliation.reconciliation_engine import (
 
 
 def run_reconciliation():
-    # Step 1: Read Silver data
     agency_a = pd.read_parquet("data/silver/agency_a")
     agency_b = pd.read_parquet("data/silver/agency_b")
 
-    # Step 2: Prepare datasets
     agency_a_clean, agency_a_conflicts = prepare_for_reconciliation(agency_a)
     agency_b_clean, agency_b_conflicts = prepare_for_reconciliation(agency_b)
 
-    # Step 3: Match policies
-    reconciled_df = match_agencies(
-        agency_a_clean,
-        agency_b_clean,
+    reconciled_df = match_agencies(agency_a_clean, agency_b_clean)
+
+    unmatched_df = reconciled_df[
+        reconciled_df["_merge"] != "both"
+    ].copy()
+
+    unmatched_df["exception_type"] = unmatched_df["_merge"].map(
+        {
+            "left_only": "Missing from Agency B",
+            "right_only": "Missing from Agency A",
+        }
     )
 
-    # Step 4: Compare fields
     compared_df = compare_matched_records(reconciled_df)
-
-    # Step 5: Classify exceptions
     exceptions_df = classify_discrepancies(compared_df)
 
-    # Step 6: Create output directory
     output_dir = Path("data/exceptions")
     output_dir.mkdir(parents=True, exist_ok=True)
 
-    # Step 7: Save exceptions
-    csv_file = output_dir / "reconciliation_exceptions.csv"
-    parquet_file = output_dir / "reconciliation_exceptions.parquet"
+    exceptions_df.to_csv(
+        output_dir / "reconciliation_exceptions.csv",
+        index=False,
+    )
 
-    exceptions_df.to_csv(csv_file, index=False)
-    exceptions_df.to_parquet(parquet_file, index=False, engine="pyarrow")
+    exceptions_df.to_parquet(
+        output_dir / "reconciliation_exceptions.parquet",
+        index=False,
+        engine="pyarrow",
+    )
 
-    # Step 8: Print summary
+    unmatched_df.to_csv(
+        output_dir / "unmatched_policies.csv",
+        index=False,
+    )
+
+    unmatched_df.to_parquet(
+        output_dir / "unmatched_policies.parquet",
+        index=False,
+        engine="pyarrow",
+    )
+
     print("RECONCILIATION COMPLETE")
     print("=" * 40)
     print("Matched policies:", len(compared_df))
-    print("Total exceptions:", len(exceptions_df))
+    print("Field-level exceptions:", len(exceptions_df))
+    print("Unmatched policies:", len(unmatched_df))
     print("Agency A conflicts:", len(agency_a_conflicts))
     print("Agency B conflicts:", len(agency_b_conflicts))
 
-    print("\nDiscrepancy summary:")
+    print("\nField discrepancy summary:")
     print(exceptions_df["discrepancy_types"].explode().value_counts())
 
-    print("\nFiles saved:")
-    print(csv_file)
-    print(parquet_file)
+    print("\nUnmatched policy summary:")
+    print(unmatched_df["exception_type"].value_counts())
 
-    return exceptions_df
+    print("\nFiles saved:")
+    print(output_dir / "reconciliation_exceptions.csv")
+    print(output_dir / "reconciliation_exceptions.parquet")
+    print(output_dir / "unmatched_policies.csv")
+    print(output_dir / "unmatched_policies.parquet")
+
+    return exceptions_df, unmatched_df
 
 
 if __name__ == "__main__":
